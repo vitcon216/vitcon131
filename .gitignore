@@ -1,0 +1,12 @@
+# Bỏ qua các file nén
+*.zip
+
+# Bỏ qua các thư mục tạm
+temp_docx/
+tlht_docx/
+
+# Bỏ qua các file nháp, text thô
+clipboard.txt
+temp*.txt
+Chương*.txt
+TLHT*.txt

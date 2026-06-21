@@ -1,0 +1,782 @@
+[
+  {
+    "id": 354,
+    "question": "Thiết kế phần mềm là xác định cách thức thực hiện những gì đã được đặt ra ở phần phân tích nhằm để trả lời câu hỏi nào?",
+    "options": [
+      "\"cái gì-what\"",
+      "\"như thế nào-how\"",
+      "\"cái gì-what\" và \"như thế nào-how\"",
+      "\"bao nhiêu-how many\""
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Mục tiêu của chương này là giới thiệu về quy trình khảo sát, phân tích và đặc tả yêu cầu của phần mềm. Với sản phẩm phần mềm được xây dựng, việc hiểu ..."
+  },
+  {
+    "id": 355,
+    "question": "Trong ba giai đoạn: thiết kế, cài đặt và bảo trì thì giai đoạn nào là giai đoạn quan trọng nhất, chịu trách nhiệm đến 80% đối với sự thành công của một sản phẩm:",
+    "options": [
+      "Giai đoạn thiết kế",
+      "Giai đoạn cài đặt",
+      "Giai đoạn bảo trì",
+      "Không có giai đoạn nào"
+    ],
+    "answer": 0,
+    "explanation": "Giai đoạn thiết kế đóng vai trò quyết định, chịu trách nhiệm tới 80% đối với sự thành công và chất lượng lâu dài của sản phẩm.."
+  },
+  {
+    "id": 356,
+    "question": "Nhiệm vụ của giai đoạn nào trong các giai đoạn thiết kế, cài đặt, kiểm thử, bảo trì là chuyển đổi những yêu cầu của hệ thống (kết quả của quá trình phân tích) sang dạng biểu diễn của hệ thống phần mềm:",
+    "options": [
+      "Giai đoạn thiết kế",
+      "Giai đoạn cài đặt",
+      "Giai đoạn bảo trì",
+      "Giai đoạn kiểm thử"
+    ],
+    "answer": 0,
+    "explanation": "Giai đoạn thiết kế nhận đầu vào là tài liệu yêu cầu (kết quả phân tích) và chuyển đổi chúng thành dạng biểu diễn hệ thống phần mềm.."
+  },
+  {
+    "id": 357,
+    "question": "Trong quan điểm quản lý: thiết kế phần mềm được tiến hành gồm những bước nào:",
+    "options": [
+      "Thiết kế sơ bộ và thiết kế bộ phận",
+      "Thiết kế chi tiết",
+      "Thiết kế sơ bộ và thiết kế chi tiết",
+      "Thiết kế bộ phận"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Thiết kế cấu trúc dữ liệu: Các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống được thiết kế chi tiết và được đặc tả ở đây...."
+  },
+  {
+    "id": 358,
+    "question": "Đối với khía cạnh kỹ thuật, xuất hiện một số hoạt động thiết kế bao gồm:",
+    "options": [
+      "Thiết kế dữ liệu, Thiết kế kiến trúc, Thiết kế đối tượng, Thiết kế thủ tục",
+      "Thiết kế dữ liệu, Thiết kế kiến trúc, Thiết kế thủ tục, Thiết kế đối tượng, Thiết kế giao diện",
+      "Thiết kế kiến trúc, Thiết kế đối tượng, Thiết kế giao diện",
+      "Thiết kế dữ liệu, Thiết kế thủ tục, Thiết kế giao diện"
+    ],
+    "answer": 1,
+    "explanation": "Về kỹ thuật, thiết kế gồm: Thiết kế dữ liệu, Thiết kế kiến trúc, Thiết kế thủ tục, Thiết kế đối tượng, và Thiết kế giao diện.."
+  },
+  {
+    "id": 359,
+    "question": "Tiến trình thiết kế được thực hiện theo thứ tự nào:",
+    "options": [
+      "Phát thảo thiết kế phi hình thức, Thiết kế phi hình thức, Thiết kế hình thức, Thiết kế hoàn chỉnh.",
+      "Thiết kế hình thức, Phát thảo thiết kế phi hình thức, Thiết kế phi hình thức, Thiết kế hoàn chỉnh.",
+      "Thiết kế hoàn chỉnh, Phát thảo thiết kế phi hình thức, Thiết kế phi hình thức, Thiết kế hình thức.",
+      "Phát thảo thiết kế phi hình thức, Thiết kế hình thức,Thiết kế phi hình thức, Thiết kế hoàn chỉnh."
+    ],
+    "answer": 0,
+    "explanation": "Tiến trình thiết kế đi từ mức trừu tượng cao đến chi tiết: Phác thảo phi hình thức, Thiết kế phi hình thức, Thiết kế hình thức, Thiết kế hoàn chỉnh.."
+  },
+  {
+    "id": 360,
+    "question": "Trong thiết kế phần mềm, giai đoạn đặc tả trừu tượng là:",
+    "options": [
+      "Các dịch vụ cung cấp bởi một hệ con được phân chia qua các thành phần của hệ con đó.",
+      "Đối với các hệ con, đặc tả các dịch vụ mà nó phải cung cấp và các ràng buộc mà nó phải tuân theo.",
+      "Các hệ con tạo nên hệ tổng thể và các quan hệ của chúng là được minh định và ghi thành tài liệu",
+      "Các kiến trúc dữ liệu được dùng trong việc thực hiện hệ thống được thiết kế chi tiết và được đặc tả"
+    ],
+    "answer": 1,
+    "explanation": "Đặc tả trừu tượng là việc định nghĩa các dịch vụ mà mỗi hệ thống con phải cung cấp cùng các ràng buộc hoạt động của chúng.."
+  },
+  {
+    "id": 361,
+    "question": "Trong thiết kế phần mềm, giai đoạn thiết kế cấu trúc dữ liệu là:",
+    "options": [
+      "Các dịch vụ cung cấp bởi một hệ con được phân chia qua các thành phần của hệ con đó.",
+      "Các hệ con tạo nên hệ tổng thể và các quan hệ của chúng là được minh định và ghi thành tài liệu",
+      "Các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống được thiết kế chi tiết và được đặc tả",
+      "Đối với các hệ con, đặc tả các dịch vụ mà nó phải cung cấp và các ràng buộc mà nó phải tuân theo"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế cấu trúc dữ liệu là việc chi tiết hóa và đặc tả các cấu trúc lưu trữ và tổ chức dữ liệu sẽ sử dụng trong chương trình.."
+  },
+  {
+    "id": 362,
+    "question": "Trong thiết kế phần mềm, giai đoạn thiết kế giao diện có nội dung:",
+    "options": [
+      "Các dịch vụ cung cấp bởi một hệ con được phân chia qua các thành phần của hệ con đó",
+      "Các hệ con tạo nên hệ tổng thể và các quan hệ của chúng là được minh định và ghi thành tài liệu.",
+      "Đối với các hệ con, đặc tả các dịch vụ mà nó phải cung cấp và các ràng buộc mà nó phải tuân theo",
+      "Giao diện của từng hệ con với các hệ con khác được thiết kế và ghi thành tài liệu."
+    ],
+    "answer": 3,
+    "explanation": "Thiết kế giao diện xác định và ghi chép tài liệu về cách thức các hệ thống con giao tiếp và trao đổi dữ liệu với nhau.."
+  },
+  {
+    "id": 363,
+    "question": "Trong thiết kế phần mềm, giai đoạn thiết kế các thành phần có nội dung:",
+    "options": [
+      "Các hệ con tạo nên hệ tổng thể và các quan hệ của chúng là được minh định và ghi thành tài liệu",
+      "Đối với các hệ con, đặc tả các dịch vụ mà nó phải cung cấp và các ràng buộc mà nó phải tuân theo",
+      "Các dịch vụ cung cấp bởi một hệ con được phân chia qua các thành phần của hệ con đó",
+      "Giao diện của từng hệ con với các hệ con khác được thiết kế và ghi thành tài liệu"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế thành phần (component design) phân chia các dịch vụ của hệ thống con thành các thành phần nhỏ hơn, độc lập.."
+  },
+  {
+    "id": 364,
+    "question": "Thiết kế phần mềm bao gồm những công việc chính:",
+    "options": [
+      "Xác định kiến trúc phần mềm",
+      "Chọn lựa cách thức thực hiện của từng thành phần và mô tả lại cách thực hiện này",
+      "Xác định kiến trúc phần mềm và chọn lựa cách thức thực hiện của từng thành phần và mô tả lại cách thực hiện này",
+      "Xác định thời gian hoàn tất phần mềm"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế phần mềm gồm hai nhiệm vụ: Xác định kiến trúc tổng thể và chọn lựa cách thức thực hiện (thuật toán, cấu trúc) cho từng thành phần.."
+  },
+  {
+    "id": 365,
+    "question": "Thiết kế một phần mềm cụ thể sẽ mang lại:",
+    "options": [
+      "Duy nhất một kết quả",
+      "Nhiều kết quả khác nhau với các chọn lựa khác nhau về cách thức thực hiện",
+      "Duy nhất một kết quả cho dù chọn lựa cách thức thực hiện khác nhau",
+      "Duy nhất một kết quả vì chỉ có duy nhất một phương pháp thiết kế phần mềm"
+    ],
+    "answer": 1,
+    "explanation": "Thiết kế là quá trình đưa ra quyết định chọn lựa."
+  },
+  {
+    "id": 366,
+    "question": "Kết quả của việc thiết kế phần mềm không có bản thiết kế về:",
+    "options": [
+      "Thành phần Giao diện",
+      "Thành phần Xử lý",
+      "Thành phần Dữ liệu",
+      "Thành phần Chức năng"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Thành phần Giao diện..."
+  },
+  {
+    "id": 367,
+    "question": "Bản thiết kế thành phần giao diện bao gồm:",
+    "options": [
+      "Nội dung và hình thức trình bày các màn hình giao tiếp của phần mềm",
+      "Hệ thống các giao tác mà người dùng có thể thực hiện trên màn hình giao tiếp và xử lý tương ứng của PM",
+      "Nội dung và hình thức trình bày các màn hình giao tiếp của phần mềm cùng hệ thống các giao tác mà người dùng có thể thực hiện trên màn hình giao tiếp và xử lý tương ứng của PM",
+      "Hình thức các màn hình giao tiếp"
+    ],
+    "answer": 2,
+    "explanation": "Bản thiết kế giao diện mô tả cả nội dung, hình thức hiển thị (màn hình) lẫn các giao tác (luồng đi) và xử lý tương ứng khi người dùng tương tác.."
+  },
+  {
+    "id": 368,
+    "question": "Bản thiết kế thành phần xử lý bao gồm:",
+    "options": [
+      "Hệ thống các kiểu dữ liệu được sử dụng trong phần mềm và các tham biến được sử dụng trong phần mềm",
+      "Hệ thống các biến được sử dụng trong phần mềm",
+      "Hệ thống các kiểu dữ liệu được sử dụng trong phần mềm và hệ thống các hàm được sử dụng trong phần mềm",
+      "Hệ thống các kiểu dữ liệu được sử dụng trong phần mềm và hệ thống các biến được sử dụng trong phần mềm"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế thành phần xử lý bao gồm việc định nghĩa hệ thống các kiểu dữ liệu và hệ thống các hàm/thủ tục thực hiện xử lý.."
+  },
+  {
+    "id": 369,
+    "question": "Bản thiết kế thành phần dữ liệu không bao gồm: .",
+    "options": [
+      "Nội dung của công việc ghi chép vào sổ sách trong thế giới thực trên bộ nhớ phụ",
+      "Dạng lưu trữ được sử dụng của PM (tập tin, cơ sở dữ liệu,…)",
+      "Hệ thống các thành phần lưu trữ cùng với quan hệ của chúng",
+      "Hệ thống các kết quả của chương trình"
+    ],
+    "answer": 3,
+    "explanation": "Thiết kế dữ liệu xác định dạng lưu trữ (file, database) và quan hệ các bảng."
+  },
+  {
+    "id": 370,
+    "question": "Trong 4 nội dung dưới đây, nội dung nào sai? Thiết kế được dùng để:",
+    "options": [
+      "Làm cơ sở hợp đồng giữa hai bên",
+      "Làm cơ sở cho việc thực hiện chi tiết",
+      "Dùng làm phương tiện liên lạc giữa các nhóm",
+      "Cung cấp thông tin cho những người bảo trì hệ thống"
+    ],
+    "answer": 0,
+    "explanation": "Bản thiết kế dùng làm cơ sở thực hiện chi tiết, liên lạc giữa các nhóm và bảo trì."
+  },
+  {
+    "id": 371,
+    "question": "Trong các phát biểu sau, phát biểu nào là đúng:",
+    "options": [
+      "Thiết kế hướng đối tượng chỉ dùng cho lập trình hướng đối tượng",
+      "Thiết kế hướng đối tượng có những điểm giống lập trình hướng đối tượng",
+      "Thiết kế hướng đối tượng có thể dùng cho cả lập trình hướng đối tượng và lập trình hướng chức năng",
+      "Thiết kế hướng đối tượng là lập trình hướng đối tượng"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế hướng đối tượng (OOD) là phương pháp thiết kế hệ thống dựa trên các đối tượng."
+  },
+  {
+    "id": 372,
+    "question": "Một số tiêu chí đánh giá về chất lượng thiết kế:",
+    "options": [
+      "Sự kết dính, tính đầy đủ, sự ghép nối, sự hiểu được, tính phổ dụng",
+      "Sự kết dính, sự ghép nối, sự hiểu được, tính thích nghi",
+      "Sự ghép nối, sự hiểu được, tính thích nghi, tính đầy đủ",
+      "Sự kết dính, sự ghép nối, sự hiểu được, tính phổ dụng, tính thích nghi"
+    ],
+    "answer": 3,
+    "explanation": "Chất lượng thiết kế được đánh giá qua: Sự kết dính (Cohesion), Sự ghép nối (Coupling), Sự hiểu được (Understandability), Tính thích nghi (Adaptability).."
+  },
+  {
+    "id": 373,
+    "question": "Trong các tính chất sau, tính chất nào là đặc trưng của thiết kế hướng đối tượng:",
+    "options": [
+      "Các đối tượng liên lạc với nhau thông qua các biến dùng chung",
+      "Các đối tượng liên lạc với nhau thông qua trao đổi thông báo",
+      "Các đối tượng là độc lập với nhau và liên lạc thông qua các biến dùng chung.",
+      "Các đối tượng chia sẻ với nhau thông qua trạng thái hệ thống tập trung."
+    ],
+    "answer": 1,
+    "explanation": "Trong OOD, các đối tượng hoạt động độc lập và chỉ tương tiếp/giao tiếp với nhau thông qua việc gửi và nhận các thông điệp (messages).."
+  },
+  {
+    "id": 374,
+    "question": "Trong các đặc điểm sau, đặc điểm nào không là ưu điểm của thiết kế hướng đối tượng?",
+    "options": [
+      "Dễ học và dễ sử dụng",
+      "Dễ bảo trì và các đối tượng là độc lập",
+      "Phản ánh một cách rõ ràng giữa các thực thể có thực",
+      "Các đối tượng là các thành phần dùng lại được thích hợp"
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình: Các đối tượng là các thành phần dùng lại được thích hợp do tính độc lập của chúng và khả năng kế thừa cao...."
+  },
+  {
+    "id": 377,
+    "question": "Thiết kế hướng đối tượng và thiết kế hướng chức năng là 2 chiến lược thiết kế:",
+    "options": [
+      "Độc lập không liên quan đến nhau",
+      "Đối kháng nhau",
+      "Bổ sung và hỗ trợ cho nhau",
+      "Hoàn toàn giống nhau"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Cách tiếp cận hướng chức năng hay hướng đối tượng là bổ sung và hỗ trợ cho nhau chứ không phải là đối kháng nhau. Kỹ sư phần mềm sẽ chọn cách tiếp cận..."
+  },
+  {
+    "id": 378,
+    "question": "Đâu không phải là yêu cầu thiết kế:",
+    "options": [
+      "Tính sáng sủa, dễ đọc",
+      "Dễ thử nghiệm.",
+      "Linh hoạt đối với những yêu cầu thay đổi không định trước.",
+      "Kích thước module đủ lớn"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: -Dễ thử nghiệm..."
+  },
+  {
+    "id": 379,
+    "question": "Độ đo về tính khớp lại với nhau của một thành phần liên quan chủ yếu đến tiêu chuẩn nào của chất lượng thiết kế:",
+    "options": [
+      "Sự kết dính",
+      "Sự ghép nối",
+      "Sự hiểu được",
+      "Sự thích nghi"
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình: Phương pháp phát triển dựa trên thành phần gần tương tự như phương pháp phát triển hướng đối tượng. Hoạt động công nghệ bắt đầu với sự chỉ ra các lớp ..."
+  },
+  {
+    "id": 380,
+    "question": "Loại trừu tượng nào không được dùng trong thiết kế phần mềm?",
+    "options": [
+      "Điều khiển",
+      "Dữ liệu",
+      "Thủ tục",
+      "Chương trình"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Công nghệ phản hồi - Reverse engineering - đối với phần mềm là đơn giản. Trong nhiều trường hợp, chương trình được tổ chức ngược không phải thuộc nhà ..."
+  },
+  {
+    "id": 381,
+    "question": "Loại mô hình nào không được có trong kiến trúc phần mềm:",
+    "options": [
+      "Dữ liệu",
+      "Động",
+      "Xử lý",
+      "Cấu trúc"
+    ],
+    "answer": 0,
+    "explanation": "Kiến trúc phần mềm thể hiện qua các mô hình cấu trúc, xử lý, động."
+  },
+  {
+    "id": 382,
+    "question": "Cấp bậc điều khiển thể hiện :",
+    "options": [
+      "Thứ tự quyết định",
+      "Việc tổ chức của các module",
+      "Sự lặp lại của những hoạt động",
+      "Sự tuần tự của các tiến trình"
+    ],
+    "answer": 1,
+    "explanation": "Cấp bậc điều khiển (Control hierarchy/Program structure) thể hiện sự tổ chức và phân cấp quản lý giữa các mô-đun trong chương trình.."
+  },
+  {
+    "id": 383,
+    "question": "Thủ tục phần mềm tập trung vào :",
+    "options": [
+      "Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn",
+      "Xử lý chi tiết của mỗi module riêng biệt",
+      "Xử lý chi tiết của mỗi tập module",
+      "Quan hệ giữa điều khiển và thủ tục"
+    ],
+    "answer": 1,
+    "explanation": "Thủ tục phần mềm tập trung vào việc mô tả luồng xử lý chi tiết bên trong của từng mô-đun riêng biệt."
+  },
+  {
+    "id": 384,
+    "question": "Nguyên nhân của việc sinh lỗi do thiết kế mức thành phần trước khi thiết kế dữ liệu là :",
+    "options": [
+      "Thiết kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không",
+      "Thiết kế dữ liệu thì dễ thực hiện hơn",
+      "Thiết kế dữ liệu thì khó thực hiện",
+      "Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thíết kế thành phần phải theo"
+    ],
+    "answer": 3,
+    "explanation": "Thiết kế dữ liệu phải đi trước vì cấu trúc dữ liệu ảnh hưởng sâu sắc đến cách thiết kế các thuật toán và thành phần xử lý.."
+  },
+  {
+    "id": 385,
+    "question": "Mục đích của tham chiếu chéo những yêu cầu (ma trận) trong tài liệu thiết kế là nhằm :",
+    "options": [
+      "Cho phép người quản lý theo dõi năng suất của nhóm thiết kế",
+      "Xác minh là tất cả các yêu cầu đã được xem xét trong thiết kế",
+      "Chỉ ra chi phí kết hợp với mỗi yêu cầu",
+      "Cung cấp cho việc thực thi tên của những nhà thiết kế cho mỗi yêu cầu"
+    ],
+    "answer": 1,
+    "explanation": "Ma trận truy vết yêu cầu (Requirement traceability matrix) dùng để đối chiếu đảm bảo mọi yêu cầu trong SRS đều được thiết kế.."
+  },
+  {
+    "id": 386,
+    "question": "Mục nào không là một phần của kiến trúc phần mềm :",
+    "options": [
+      "Chi tiết giải thuật",
+      "Cơ sở dữ liệu",
+      "Thiết kế dữ liệu",
+      "Cấu trúc chương trình"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Ứng dụng cơ sở dữ liệu được sử dụng như một ứng dụng xử lý câu hỏi về dữ liệu. Ngôn ngữ truy vấn dữ liệu chuẩn SQL cho phép người sử dụng đặt câu hỏi ..."
+  },
+  {
+    "id": 387,
+    "question": "Đặc trưng nào là đúng cho kho dữ liệu, không phải là cơ sở dữ liệu đặc trưng?",
+    "options": [
+      "Hướng mức nghiệp vụ và kích thước lớn",
+      "Thông tin đúng và hợp thời",
+      "Tích hợp và không thường thay đổi",
+      "Hướng mức nghiệp vụ và kích thước nhỏ"
+    ],
+    "answer": 2,
+    "explanation": "Kho dữ liệu (Data Warehouse) có đặc trưng là tích hợp thông tin từ nhiều nguồn và dữ liệu có tính lịch sử, không thường xuyên thay đổi.."
+  },
+  {
+    "id": 388,
+    "question": "Mẫu kiến trúc không quan tâm tới thành phần nào?",
+    "options": [
+      "Ràng buộc",
+      "Tập hợp những thành phần",
+      "Mô hình ngữ nghĩa",
+      "Mô hình mô phỏng"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Xác định yêu cầu: đây là một khẳng định, bằng ngôn ngữ tự nhiên hơn là các sơ đồ, về các dịch vụ hệ thống cần cung cấp và các ràng buộc mà hệ thống ph..."
+  },
+  {
+    "id": 389,
+    "question": "Nhằm xác định những mẫu kiến trúc hay kết hợp những mẫu phù hợp nhất cho hệ thống đề nghị, kỹ thuật yêu cầu dùng để khám phá :",
+    "options": [
+      "Giải thuật phức tạp",
+      "Đặc trưng và ràng buộc",
+      "Điều khiển và dữ liệu",
+      "Những mẫu thiết kế"
+    ],
+    "answer": 1,
+    "explanation": "Để chọn mẫu kiến trúc phù hợp, kỹ sư phải khám phá các đặc trưng hoạt động và các ràng buộc phi chức năng của hệ thống.."
+  },
+  {
+    "id": 400,
+    "question": "Phương pháp thiết kế nào không phải là thiết kế phần mềm?",
+    "options": [
+      "Thiết kế trực tiếp",
+      "Thiết kế gián tiếp",
+      "Thiết kế tổng quát",
+      "Thiết kế trực tiếp, thiết kế gián tiếp"
+    ],
+    "answer": 3,
+    "explanation": "Các phương pháp thiết kế phần mềm gồm thiết kế tổng quát và thiết kế chi tiết."
+  },
+  {
+    "id": 401,
+    "question": "Phương pháp thiết kế phần mềm nào nhận các kết quả từ giai đoạn xác định yêu cầu?",
+    "options": [
+      "Thiết kế trực tiếp",
+      "Thiết kế gián tiếp",
+      "Thiết kế dữ liệu",
+      "Thiết kế xử lý"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình: Thiết kế giao diện khác với thiết kế các chức năng khác của phần mềm ở điểm hướng tới người sử dụng, cần người sử dụng đánh giá. Các công đoạn thiết k..."
+  },
+  {
+    "id": 402,
+    "question": "Phương pháp thiết kế phần mềm trực tiếp phù hợp với những loại phần mềm nào?",
+    "options": [
+      "Phần mềm mã nguồn mở",
+      "Phần mềm có quy mô nhỏ",
+      "Phần mềm mạng",
+      "Phần mềm có quy mô lớn"
+    ],
+    "answer": 1,
+    "explanation": "Thiết kế trực tiếp đơn giản, chuyển trực tiếp yêu cầu thành thiết kế nên chỉ phù hợp với các ứng dụng có quy mô nhỏ.."
+  },
+  {
+    "id": 403,
+    "question": "Với phương pháp thiết kế phần mềm gián tiếp, việc thiết kế sẽ chỉ nhận:",
+    "options": [
+      "Một phần các kết quả sẽ được chuyển giao từ giai đoạn xác định yêu cầu, phần chính yếu sẽ được nhận qua giai đoạn khảo sát.",
+      "Tất cả các kết quả sẽ được từ giai đoạn xác định yêu cầu.",
+      "Tất cả các kết quả sẽ được từ giai đoạn phân tích.",
+      "Một phần các kết quả sẽ được chuyển giao từ giai đoạn xác định yêu cầu, phần chính yếu sẽ được nhận qua giai đoạn phân tích."
+    ],
+    "answer": 3,
+    "explanation": "Trong thiết kế gián tiếp, giai đoạn thiết kế nhận một phần kết quả từ xác định yêu cầu, phần chính yếu phải qua phân tích hệ thống chi tiết.."
+  },
+  {
+    "id": 404,
+    "question": "Phương pháp thiết kế gián tiếp sẽ phù hợp với những phần mềm:",
+    "options": [
+      "Có quy mô vừa và nhỏ",
+      "Có quy mô nhỏ",
+      "Có quy mô lớn",
+      "Có quy mô trung bình"
+    ],
+    "answer": 2,
+    "explanation": "Thiết kế gián tiếp có quy trình phân tích trung gian chặt chẽ nên phù hợp và cần thiết cho các dự án phần mềm quy mô lớn.."
+  },
+  {
+    "id": 405,
+    "question": "Trong kết quả thiết kế phần mềm, kết quả của thành phần xử lý không bao gồm:",
+    "options": [
+      "Danh sách các kiểu dữ liệu",
+      "Danh sách các hàm",
+      "Mô tả chi tiết các kiểu dữ liệu",
+      "Danh sách các ràng buộc"
+    ],
+    "answer": 3,
+    "explanation": "Đầu ra thiết kế xử lý gồm danh sách các hàm, kiểu dữ liệu và mô tả chi tiết của chúng."
+  },
+  {
+    "id": 406,
+    "question": "Kết quả thiết kế thành phần nào gồm hệ thống các hàm cùng cấu trúc dữ liệu tương ứng:",
+    "options": [
+      "Thiết kế ứng dụng",
+      "Thiết kế giao diện",
+      "Thiết kế xử lý",
+      "Thiết kế dữ liệu"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Mục tiêu của chương này là giới thiệu một số phương pháp và kỹ thuật chính trong thiết kế phần mềm, đối với việc triển khai một hệ thống thành nhiều h..."
+  },
+  {
+    "id": 407,
+    "question": "Các thông tin cần mô tả một màn hình giao diện gồm:",
+    "options": [
+      "Tên màn hình, nội dung màn hình.",
+      "Tên màn hình, nội dung, hình thức trình bày màn hình.",
+      "Tên màn hình, nội dung, hình thức trình bày, các thao tác có thể thực hiện.",
+      "Tên màn hình, nội dung, hình thức trình bày, các thao tác có thể thực hiện và các cấu trúc dữ liệu tương ứng."
+    ],
+    "answer": 2,
+    "explanation": "Mô tả màn hình giao diện cần đầy đủ: Tên màn hình, nội dung thông tin, hình thức trình bày và các thao tác người dùng có thể thực hiện.."
+  },
+  {
+    "id": 408,
+    "question": "Yêu cầu tính nhất quán trong thiết kế giao diện, những thành phần tương tự nhau phải giống nhau về những mặt nào?",
+    "options": [
+      "Vị trí, ngôn ngữ, hình dáng, màu sắc và cách kích hoạt.",
+      "Vị trí, ngôn ngữ, hình dáng và màu sắc.",
+      "Vị trí, hình dáng, màu sắc và cách kích hoạt.",
+      "Vị trí, ngôn ngữ, hình dáng, màu sắc cách kích hoạt và kết quả thực hiện."
+    ],
+    "answer": 0,
+    "explanation": "Tính nhất quán giao diện yêu cầu các nút/thành phần giống nhau phải đồng bộ về vị trí, ngôn ngữ hiển thị, hình dáng, màu sắc và cách kích hoạt.."
+  },
+  {
+    "id": 409,
+    "question": "Điều quan trọng nhất trong thiết kế phần mềm là:",
+    "options": [
+      "Độ chính xác",
+      "Độ phức tạp",
+      "Tính hiệu quả",
+      "Chất lượng"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình: Tính hiệu quả của trình biên dịch nằm ở tính hiệu quả của mã assembler nhận được sau khi dịch. Tính hiệu quả đó thay đổi tuỳ theo ngôn ngữ và nhà sản ..."
+  },
+  {
+    "id": 410,
+    "question": "Vấn đề nào sau đây không ảnh hưởng nhiều đến thiết kế giao diện?",
+    "options": [
+      "Thời gian đáp ứng",
+      "Năng khiếu thẩm mỹ và kỹ năng đồ họa của người thiết kế giao diện",
+      "Quản lý lỗi",
+      "Thời gian đáp ứng, Năng khiếu thẩm mỹ và kỹ năng đồ họa của người thiết kế giao diện."
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Định nghĩa yêu cầu phi chức năng: các ràng buộc về phần mềm và các hạn chế đối với thiết kế cần phải được mô tả trong phần này. Nó có thể bao gồm các ..."
+  },
+  {
+    "id": 411,
+    "question": "Thông báo lỗi nên có tính chất nào sau đây?",
+    "options": [
+      "Nên dùng thông báo lỗi hệ thống của ngôn ngữ lập trình",
+      "Chỉ ra lỗi do người dùng mắc phải khi chạy chương trình",
+      "Nên đồng hành với các gợi ý âm thanh hay hình ảnh như tiếng beep, thông báo nhấp nháy hoặc có màu đặc biệt (đỏ)",
+      "Nên dùng thông báo lỗi hệ thống của ngôn ngữ lập trình, chỉ ra lỗi do người dùng mắc phải khi chạy chương trình và nên đồng hành với các gợi ý âm thanh hay hình ảnh như tiếng beep, thông báo nhấp nháy hoặc có màu đặc biệt (đỏ)"
+    ],
+    "answer": 2,
+    "explanation": "Thông báo lỗi tốt nên đi kèm với các dấu hiệu trực quan (màu đỏ, nhấp nháy) hoặc âm thanh để người dùng dễ dàng nhận biết.."
+  },
+  {
+    "id": 412,
+    "question": "Mô hình thiết kế phần mềm nào sau đây tương tự như bản vẽ chi tiết cửa và bố trí nội thất trong thiết kế kiến trúc nhà cửa?",
+    "options": [
+      "Thiết kế kiến trúc",
+      "Thiết kế giao diện",
+      "Thiết kế các thành phần hệ thống",
+      "Thiết kế dữ liệu"
+    ],
+    "answer": 1,
+    "explanation": "Thiết kế giao diện giống như bản vẽ bố trí nội thất/cửa, giúp người dùng hình dung cách tương tác trực tiếp với ngôi nhà.."
+  },
+  {
+    "id": 413,
+    "question": "Các bước thiết kế phần mềm nào sau đây thuộc khía cạnh kỹ thuật ?",
+    "options": [
+      "Thiết kế sơ bộ",
+      "Thiết kế chi tiết",
+      "Thiết kế dữ liệu",
+      "Thiết kế tổng quát"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Trong phạm vi thiết kế sơ bộ và chi tiết, có xuất hiện một số hoạt động thiết kế khác nhau. Bên cạnh việc thiết kế dữ liệu, kiến trúc và thủ tục, nhiề..."
+  },
+  {
+    "id": 414,
+    "question": "Chiến lược thiết kế nào sau đây có vùng dữ liệu dùng chung ?",
+    "options": [
+      "Thiết kế hướng chức năng",
+      "Thiết kế hướng đối tượng.",
+      "Thiết kế giao diện người sử dụng",
+      "Thiết kế dữ liệu"
+    ],
+    "answer": 0,
+    "explanation": "Chiến lược thiết kế hướng chức năng (cấu trúc) sử dụng các vùng dữ liệu dùng chung (global data) cho các mô-đun cùng truy cập.."
+  },
+  {
+    "id": 415,
+    "question": "Mô hình nào sau đây mà mọi dữ liệu được lưu trữ tại một cơ sở dữ liệu trung tâm có thể được truy cập bởi mọi phân hệ ?",
+    "options": [
+      "Mô hình kho dữ liệu",
+      "Mô hình khách-phục vụ",
+      "Mô hình máy trừu tượng",
+      "Mô hình mạng ngang hàng"
+    ],
+    "answer": 0,
+    "explanation": "Mô hình kho dữ liệu (Repository model) sử dụng một cơ sở dữ liệu trung tâm cho phép tất cả các phân hệ truy cập và trao đổi thông tin.."
+  },
+  {
+    "id": 416,
+    "question": "Chỉ ra phát biểu sai. Thiết kế dữ liệu ở mức thành phần:",
+    "options": [
+      "Thiết kế cơ sở dữ liệu",
+      "Hiện thực thuộc tính dữ liệu thành cấu trúc dữ liệu",
+      "Phát triển một tập những trừu tượng dữ liệu",
+      "Tinh chế các đối tượng dữ liệu"
+    ],
+    "answer": 0,
+    "explanation": "Thiết kế dữ liệu ở mức thành phần tập trung vào cấu trúc dữ liệu nội bộ và thuộc tính, việc thiết kế CSDL tổng thể thuộc mức kiến trúc.."
+  },
+  {
+    "id": 417,
+    "question": "Đặc điểm nào sau đây được sử dụng để đánh giá một bản thiết kế tốt?",
+    "options": [
+      "Thể hiện tất cả các yêu cầu trong pha phân tích, cung cấp một mô tả hoàn thiện về phần mềm",
+      "Chứa cả các trường hợp kiểm thử của tất cả các thành phần",
+      "Mô tả một phần phần mềm",
+      "Mô tả chức năng phần mềm"
+    ],
+    "answer": 0,
+    "explanation": "Bản thiết kế tốt phải bao phủ toàn bộ yêu cầu trong SRS và cung cấp mô tả chi tiết, rõ ràng để lập trình viên cài đặt.."
+  },
+  {
+    "id": 418,
+    "question": "Hướng tiếp cận nào để những phân tích tác vụ của người dùng trong thiết kế giao diện người dùng",
+    "options": [
+      "Người dùng cho biết những ưa thích qua bản câu hỏi",
+      "Dựa vào ý kiến của những lập trình viên có kinh nghiệm",
+      "Nghiên cứu những hệ thống tự động liên quan",
+      "Quan sát thao tác người dùng"
+    ],
+    "answer": 3,
+    "explanation": "Để phân tích tác vụ người dùng khi thiết kế UI, việc quan sát trực tiếp thao tác thực tế của họ là hướng tiếp cận hiệu quả nhất.."
+  },
+  {
+    "id": 419,
+    "question": "Một đặc trưng của thiết kế tốt là",
+    "options": [
+      "Cho thấy sự liên kết mạnh giữa các module",
+      "Thực hiện tất cả yêu cầu trong phân tích",
+      "Bao gồm những test case cho tất cả thành phần",
+      "Kết hợp mã nguồn nhằm mục đích mô tả"
+    ],
+    "answer": 1,
+    "explanation": "Đặc trưng của thiết kế tốt là thực hiện đầy đủ các yêu cầu chức năng và phi chức năng đã được chỉ ra trong pha phân tích.."
+  },
+  {
+    "id": 420,
+    "question": "Mục nào không là đặc trưng chung trong các phương pháp thiết kế",
+    "options": [
+      "Quản lý cấu hình",
+      "Ký hiệu thành phần chức năng",
+      "Nguyên tắc đánh giá chất lượng",
+      "Heuristic tinh chế"
+    ],
+    "answer": 0,
+    "explanation": "Phương pháp thiết kế cung cấp ký hiệu, nguyên tắc đánh giá và heuristic tinh chế."
+  },
+  {
+    "id": 421,
+    "question": "Những câu hỏi có ý nghĩa nhất đối với những người thiết kế giao diện khi được hoàn tất bởi:",
+    "options": [
+      "Khách hàng",
+      "Những lập trình viên có kinh nghiệm",
+      "Người dùng sản phẩm",
+      "Người quản lý dự án"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Thiết kế giao diện khác với thiết kế các chức năng khác của phần mềm ở điểm hướng tới người sử dụng, cần người sử dụng đánh giá. Các công đoạn thiết k..."
+  },
+  {
+    "id": 422,
+    "question": "Sơ đồ luồng dữ liệu",
+    "options": [
+      "Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu",
+      "Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu",
+      "Chỉ ra những quyết định logic chính khi chúng xuất hiện",
+      "Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Biểu đồ luồng dữ liệu (DFD) biểu diễn các chức năng (tiến trình) biến đổi và luân chuyển các dòng dữ liệu trong hệ thống.."
+  },
+  {
+    "id": 423,
+    "question": "Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?",
+    "options": [
+      "Kế hoạch kiểm thử",
+      "Mã lệnh",
+      "Thiết kế chi tiết",
+      "Lập kế hoạch"
+    ],
+    "answer": 2,
+    "explanation": "Tài liệu thiết kế chi tiết (Detailed Design Document) là kết quả được tạo ra trong pha thiết kế hệ thống làm cơ sở trực tiếp cho cài đặt.."
+  },
+  {
+    "id": 428,
+    "question": "Trong thiết kế cơ sở dữ liệu đâu không phải là quan hệ giữa các bảng",
+    "options": [
+      "1-1 (một - một)",
+      "1-n (một - nhiều)",
+      "n-n (nhiều - nhiều)",
+      "0-1 (không -một)"
+    ],
+    "answer": 3,
+    "explanation": "Các quan hệ chuẩn trong thiết kế CSDL quan hệ gồm: 1-1, 1-n, n-n."
+  },
+  {
+    "id": 429,
+    "question": "Trong thiết kế cơ sở dữ liệu đâu không phải là quan hệ giữa các bảng?",
+    "options": [
+      "1-1 (một - một)",
+      "1-n (một - nhiều)",
+      "n-n (nhiều - nhiều)",
+      "1-0 (một -không)"
+    ],
+    "answer": 3,
+    "explanation": "Các quan hệ chuẩn trong thiết kế CSDL quan hệ gồm: 1-1, 1-n, n-n."
+  },
+  {
+    "id": 430,
+    "question": "Trong thiết kế cơ sở dữ liệu đâu không phải là quan hệ giữa các bảng?",
+    "options": [
+      "1-1 (một - một)",
+      "1-n (một - nhiều)",
+      "n-n (nhiều - nhiều)",
+      "0-0 (không -không)"
+    ],
+    "answer": 3,
+    "explanation": "Các quan hệ chuẩn trong thiết kế CSDL quan hệ gồm: 1-1, 1-n, n-n."
+  },
+  {
+    "id": 431,
+    "question": "Khi thiết kế cơ sở dữ liệu, người thiết kế cần tạo quan hệ giữa các bảng để đáp ứng?",
+    "options": [
+      "Tính ràng buộc dữ liệu",
+      "Tính độc lập dữ liệu",
+      "Tính dễ dùng",
+      "Tính đơn giản hóa"
+    ],
+    "answer": 0,
+    "explanation": "Tạo liên kết giữa các bảng (khóa ngoại) nhằm đảm bảo tính ràng buộc toàn vẹn dữ liệu trong cơ sở dữ liệu.."
+  },
+  {
+    "id": 432,
+    "question": "Khi người thiết kế cơ sở dữ liệu cần đặt khóa chính cho mỗi bảng (thực thể) để?",
+    "options": [
+      "Phân biệt giữa các bản ghi",
+      "Nhập bản ghi trùng nhau",
+      "Nhập bản ghi rỗng",
+      "Nhập sai dữ liệu"
+    ],
+    "answer": 0,
+    "explanation": "Khóa chính (Primary Key) của mỗi bảng được thiết lập để định danh duy nhất và phân biệt giữa các bản ghi (dòng dữ liệu) với nhau.."
+  },
+  {
+    "id": 433,
+    "question": "Khóa ngoại ở bảng trong cơ sở dữ liệu được hiểu",
+    "options": [
+      "Như con trỏ trỏ tới khóa chính",
+      "Trong quan hệ 0-0",
+      "Trong quan hệ 0-1",
+      "Trong quan hệ 1-0"
+    ],
+    "answer": 0,
+    "explanation": "Khóa ngoại (Foreign Key) đóng vai trò như một con trỏ trỏ tới khóa chính của bảng khác để thiết lập mối quan hệ giữa hai bảng.."
+  },
+  {
+    "id": 434,
+    "question": "Trong làm dự án phần mềm, phần mềm thất bại phần đa ở khâu nào?",
+    "options": [
+      "Thiết kế",
+      "Kiểm thử",
+      "Bảo trì",
+      "Lập trình"
+    ],
+    "answer": 0,
+    "explanation": "Thống kê cho thấy phần lớn các dự án phần mềm thất bại ở khâu Thiết kế và Xác định yêu cầu (do sai kiến trúc hoặc sai yêu cầu người dùng).."
+  }
+]

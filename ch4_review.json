@@ -1,0 +1,746 @@
+[
+  {
+    "id": 1,
+    "question": "Một chương trình được cài đặt tốt sẽ đem lại cho ta thuận lợi trong công việc nào?",
+    "options": [
+      "Bảo trì.",
+      "Thiết kế.",
+      "Kiểm thử.",
+      "Phân tích và thiết kế."
+    ],
+    "answer": 0,
+    "explanation": "Một chương trình được cài đặt tốt sẽ đem lại cho ta nhiều thuận lợi trong công việc bảo trì (sửa lỗi, nâng cấp) sau này.."
+  },
+  {
+    "id": 2,
+    "question": "Phong cách lập trình và các đặc trưng của ngôn ngữ lập trình có ảnh hưởng đến chất lượng của phần mềm không?",
+    "options": [
+      "Ảnh hưởng lớn đến chất lượng phần mềm",
+      "Ảnh hưởng không đáng kể đến chất lượng phần mềm",
+      "Không ảnh hưởng gì lắm đến chất lượng phần mềm",
+      "Không ảnh hưởng gì đến chất lượng phần mềm"
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình: Không ảnh hưởng gì đến chất lượng phần mềm Câu 2. Phong cách lập trình nào được xem là tốt?..."
+  },
+  {
+    "id": 3,
+    "question": "Phong cách lập trình nào được xem là tốt?",
+    "options": [
+      "Sử dụng nhiều kỹ thuật nâng cao của các ngôn ngữ lập trình hiện đại nhất",
+      "Sử dụng các câu lệnh theo thói quen của bản thân không cần quan tâm đến cấu trúc đơn giản hay phức tạp miễn sao giải quyết được công việc là được",
+      "Sử dụng các câu lệnh đơn giản, ngắn gọn, dễ hiểu và hiệu quả.",
+      "Sử dụng các câu lệnh phức tạp chứng tỏ được khả năng am hiểu ngôn ngữ lập trình của lập trình viên."
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình: Sử dụng các câu lệnh phức tạp chứng tỏ được khả năng am hiểu ngôn ngữ lập trình của lập trình viên...."
+  },
+  {
+    "id": 4,
+    "question": "Thứ tự khai báo dữ liệu nên được chuẩn hoá cho dù ngôn ngữ lập trình không có yêu cầu bắt buộc. Điều này tạo điều kiện thuận lợi cho công việc nào:",
+    "options": [
+      "Kiểm thử, gỡ rối và bảo trì",
+      "Phân tích, thiết kế và cài đặt",
+      "Thiết kế và cài đặt và bảo trì",
+      "Cài đặt và bảo trì"
+    ],
+    "answer": 0,
+    "explanation": "Chuẩn hóa thứ tự khai báo dữ liệu giúp lập trình viên dễ theo dõi, thuận lợi cho việc kiểm thử, gỡ rối và bảo trì.."
+  },
+  {
+    "id": 5,
+    "question": "Việc xây dựng các câu lệnh của chương trình nên tuân theo phong cách lập trình nào:",
+    "options": [
+      "Lập trình cấu trúc",
+      "Lập trình hướng đối tượng",
+      "Lập trình logic",
+      "Lập trình mạng"
+    ],
+    "answer": 0,
+    "explanation": "Việc xây dựng các câu lệnh nên tuân theo phong cách lập trình cấu trúc (mỗi khối có 1 lối vào, 1 lối ra duy nhất) để dễ kiểm soát logic.."
+  },
+  {
+    "id": 6,
+    "question": "Trong thể hiện chương trình, cách xây dựng câu lệnh đơn không nhất thiết phải tuân theo các chỉ dẫn nào?",
+    "options": [
+      "Tránh dùng các phép kiểm tra điều kiện phức tạp",
+      "Khử bỏ các phép kiểm tra điều kiện phủ định",
+      "Tránh lồng nhau giữa các điều kiện hay chu trình",
+      "Tránh sử dụng lại các đoạn chương trình giống nhau"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Tránh dùng các phép kiểm tra điều kiện phức tạp..."
+  },
+  {
+    "id": 7,
+    "question": "Các ngôn ngữ thế hệ thứ nhất: là các chương trình được viết theo mã máy hoặc hợp ngữ. Sử dụng các ngôn ngữ này có lợi thế gì:",
+    "options": [
+      "Dễ hiểu, dễ lập trình",
+      "Chương trình ngắn gọn, dễ hiểu",
+      "Giải quyết nhanh các bài toán phức tạp",
+      "Tốc độ xử lý chương trình nhanh, cấu hình phần cứng đơn giản"
+    ],
+    "answer": 3,
+    "explanation": "Ngôn ngữ thế hệ thứ nhất (mã máy/hợp ngữ) giao tiếp trực tiếp với phần cứng nên tốc độ xử lý nhanh và không yêu cầu cấu hình phần cứng mạnh.."
+  },
+  {
+    "id": 8,
+    "question": "Các ngôn ngữ thế hệ thứ hai: được phát triển từ cuối những năm 1950 đến đầu những năm 1960, như FORTRAN, COBOL, ALGOL, BASIC,... Nó được xem là nền tảng cho mọi ngôn ngữ lập trình hiện đại - thế hệ thứ ba. Đặc trưng của các ngôn ngữ thế hệ thứ 2 là:",
+    "options": [
+      "Các ngôn ngữ thế hệ thứ hai được đặc trưng bởi việc sử dụng rộng rãi thư viện phần mềm khổng lồ và nó cũng đã được chấp nhận rộng rãi",
+      "Các ngôn ngữ thế hệ thứ hai được đặc trưng khả năng cấu trúc dữ liệu và thủ tục mạnh",
+      "Các ngôn ngữ thế hệ thứ hai được đặc trưng bởi việc sử dụng hợp ngữ và ngôn ngữ máy",
+      "Các ngôn ngữ thế hệ thứ hai được đặc trưng bởi việc biểu thị các cấu trúc dữ liệu ở mức độ trừu tượng cao hơn bằng cách xoá bỏ yêu cầu xác định chi tiết thuật toán"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình trang 80, các ngôn ngữ thế hệ thứ hai được đặc trưng bởi việc sử dụng rộng rãi thư viện phần mềm khổng lồ và nó cũng đã được chấp nhận rộng rãi.."
+  },
+  {
+    "id": 9,
+    "question": "Các ngôn ngữ thế hệ thứ tư như ngôn ngữ vấn đáp, ngôn ngữ hỗ trợ quyết định, ngôn ngữ làm bản mẫu,...Đặc trưng của các ngôn ngữ thế hệ thứ tư là:",
+    "options": [
+      "Biểu thị các cấu trúc dữ liệu ở mức độ trừu tượng cao hơn bằng cách xoá bỏ yêu cầu xác định chi tiết thuật toán",
+      "Khả năng cấu trúc dữ liệu và thủ tục mạnh",
+      "Sử dụng rộng rãi thư viện phần mềm khổng lồ",
+      "Được viết bằng ngôn ngữ máy và hợp ngữ"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Các ngôn ngữ thế hệ thứ ba: còn được gọi là ngôn ngữ lập trình hiện đại hay có cấu trúc. Nó được đặc trưng bởi khả năng cấu trúc dữ liệu và thủ tục mạ..."
+  },
+  {
+    "id": 10,
+    "question": "Ngôn ngữ cài đặt SQL là thuộc loại:",
+    "options": [
+      "Ngôn ngữ hỏi đáp trong lĩnh vực cơ sở dữ liệu",
+      "Ngôn ngữ lập trình theo phong cách cấu trúc",
+      "Ngôn ngữ lập trình theo phong cách hướng đối tượng",
+      "Ngôn ngữ lập trình theo phong cách logic"
+    ],
+    "answer": 0,
+    "explanation": "SQL (Structured Query Language) là ngôn ngữ hỏi đáp khai báo chuyên biệt dùng để truy vấn dữ liệu trong các hệ quản trị cơ sở dữ liệu.."
+  },
+  {
+    "id": 11,
+    "question": "Ngôn ngữ lập trình C++ thuộc loại:",
+    "options": [
+      "Ngôn ngữ lập trình theo phong cách cấu trúc và logic",
+      "Ngôn ngữ lập trình theo phong cách logic",
+      "Ngôn ngữ lập trình theo phong cách hướng đối tượng",
+      "Ngôn ngữ lập trình lai: vừa theo phong cách cấu trúc vừa theo phong cách hướng đối tượng"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Ngôn ngữ lập trình theo phong cách logic..."
+  },
+  {
+    "id": 12,
+    "question": "Ngôn ngữ lập trình Prolog thuộc loại:",
+    "options": [
+      "Ngôn ngữ lập trình hướng cơ sở dữ liệu",
+      "Ngôn ngữ lập trình hướng đối tượng",
+      "Ngôn ngữ lập trình Logic",
+      "Ngôn ngữ lập trình cấu trúc"
+    ],
+    "answer": 2,
+    "explanation": "Prolog là ngôn ngữ lập trình khai báo tiêu biểu theo phong cách logic (Logic programming), giải quyết bài toán bằng luật và sự kiện.."
+  },
+  {
+    "id": 13,
+    "question": "Ngôn ngữ lập trình hướng đối tượng có phần mở rộng là:",
+    "options": [
+      "*.c",
+      "*.pas",
+      "*.doc",
+      "*.cpp"
+    ],
+    "answer": 3,
+    "explanation": "Ngôn ngữ lập trình hướng đối tượng (ở đây nói về C++) có phần mở rộng tệp mã nguồn là *.cpp."
+  },
+  {
+    "id": 14,
+    "question": "Phần mở rộng *.CPP là của ngôn ngữ lập trình nào?",
+    "options": [
+      "C#",
+      "Pascal",
+      "Hướng đối tượng",
+      "Cobol"
+    ],
+    "answer": 2,
+    "explanation": "Tệp tin mở rộng *.cpp là viết tắt của C Plus Plus, dùng cho ngôn ngữ lập trình hướng đối tượng C++."
+  },
+  {
+    "id": 15,
+    "question": "Ngôn ngữ nào được sử dụng trong lĩnh vực trí tuệ nhân tạo?",
+    "options": [
+      "C#",
+      "PROLOG(Programming Logic)",
+      "C++",
+      "Java"
+    ],
+    "answer": 1,
+    "explanation": "Prolog (Programming Logic) là ngôn ngữ lập trình logic chuyên biệt cho các bài toán trí tuệ nhân tạo và hệ chuyên gia.."
+  },
+  {
+    "id": 16,
+    "question": "Phương pháp lập trình nào có đặc trưng cơ bản sau: Tính đơn thể, cấu trúc điều khiển và tính vào/ra đơn.",
+    "options": [
+      "Lập trình cấu trúc",
+      "Lập trình hướng đối tượng",
+      "Lập trình hướng sự kiện",
+      "Lập trình nhúng"
+    ],
+    "answer": 0,
+    "explanation": "Lập trình cấu trúc có 3 đặc trưng cơ bản: Tính đơn thể (modules), Cấu trúc điều khiển chuẩn (tuần tự, rẽ nhánh, lặp) và Lối vào/ra đơn.."
+  },
+  {
+    "id": 17,
+    "question": "Phương pháp lập trình nào cho phép lập trình viên tạo ra các đối tượng, một phương pháp kết hợp cả dữ liệu và các câu lệnh của chương trình.",
+    "options": [
+      "Lập trình cấu trúc",
+      "Lập trình hướng đối tượng",
+      "Lập trình hướng sự kiện",
+      "Lập trình nhúng"
+    ],
+    "answer": 1,
+    "explanation": "Lập trình hướng đối tượng (OOP) cho phép kết hợp cả dữ liệu (thuộc tính) và hành vi (phương thức) vào trong thực thể đối tượng.."
+  },
+  {
+    "id": 18,
+    "question": "Muốn phát triển ứng dụng web thì chọn ngôn ngữ lập trình nào trong các ngôn ngữ dưới đây?",
+    "options": [
+      "Lập trình PHP",
+      "Lập trình C",
+      "Lập trình hướng đối tượng",
+      "Lập trình assembly"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Các lỗi lập trình: Có rất nhiều lý do dẫn đến việc các lập trình viên gây ra các lỗi lập trình. Những lý do này bao gồm: sự hiểu sai các tài liệu thiế..."
+  },
+  {
+    "id": 19,
+    "question": "Đâu là ngôn ngữ truy vấn cơ sở dữ liệu?",
+    "options": [
+      "Cobol",
+      "Aps.net",
+      "Java",
+      "SQL"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Vào/ra hướng bản ghi đọc hoặc ghi các bản ghi vật lý, bản ghi này có thể chứa đựng một hoặc nhiều bản ghi logic. Các bản ghi (hoặc là bộ trong đại số ..."
+  },
+  {
+    "id": 20,
+    "question": "Ngôn ngữ nào xử lý kiểu ứng dụng theo Lô?",
+    "options": [
+      "C",
+      "Pascal",
+      "Fortan",
+      "SQL"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Kiểm tra kiểu giả chặt chẽ (Pseudostrong type checking) là mức thứ ba của kiểm tra kiểu, nó cho phép thao tác các đối tượng dữ liệu thuộc cùng một kiể..."
+  },
+  {
+    "id": 21,
+    "question": "Hạn chế biểu diễn thuật toán bằng ngôn ngữ tự nhiên là:",
+    "options": [
+      "Tính rườm rà, dễ nhiểu nhầm ý nhau",
+      "Ngắn gọn",
+      "Khoa học",
+      "Phù hợp thuật toán phức tạp"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Tính cô đọng của ngôn ngữ nằm ở sự ngắn gọn. Các đặc trưng của chương trình bao gồm sự kết cấu có cấu trúc, từ khoá và viết tắt, hàm có sẵn, đã đơn gi..."
+  },
+  {
+    "id": 22,
+    "question": "Điểm trung bình của sinh viên cần khai báo kiểu dữ liệu trong ngôn ngữ lập trình là:",
+    "options": [
+      "Chuỗi",
+      "Logic",
+      "Số nguyên",
+      "Số thực"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Kiểu Boolean sinh ra giá trị nhị phân True, False dựa trên so sánh logic. Pointer là địa chỉ của chương trình khác hoặc cấu trúc dữ liệu mà được dùng ..."
+  },
+  {
+    "id": 23,
+    "question": "Tuổi thọ của con người cần khai báo kiểu dữ liệu trong ngôn ngữ lập trình là:",
+    "options": [
+      "Chuỗi",
+      "Logic",
+      "Số nguyên",
+      "Số thực"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình: Vào/ra hướng mảng là đọc và ghi chuỗi các trường được giả thiết là kiểu mảng, người sử dụng có nhiệm vụ định nghĩa và thao tác kiểu dữ liệu của mảng. ..."
+  },
+  {
+    "id": 24,
+    "question": "Trong lập trình tối ưu về không gian nghĩa là gì?",
+    "options": [
+      "Tiêt kiệm bộ nhớ",
+      "Tốc độ nhanh",
+      "Tiết kiệm thời gian",
+      "Tiết kiệm chi phí"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình: Ngoài ra, trong quá trình phân tích, nghiên cứu tài liệu, nếu có câu hỏi phát sinh hay đề xuất giải quyết, QA team sẽ đưa ra câu hỏi với các bên liên ..."
+  },
+  {
+    "id": 25,
+    "question": "Việc lựa chọn ngôn ngữ lập trình phải xem ngôn ngữ lập trình đó có phù hợp với kiểu ứng dụng hay không và xem nó có phù hợp với việc dùng để phát triển ứng dụng. Ngôn ngữ lập trình nào không phù hợp với kiểu ứng dụng theo lô?",
+    "options": [
+      "SQL",
+      "Basic",
+      "Cobol",
+      "C"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Các ngôn ngữ thế hệ thứ hai: được phát triển từ cuối những năm 1950 đến đầu những năm 1960, như FORTRAN, COBOL, ALGOL, BASIC, ... Nó được xem là nền t..."
+  },
+  {
+    "id": 26,
+    "question": "Việc lựa chọn ngôn ngữ lập trình phải xem ngôn ngữ lập trình đó có phù hợp với kiểu ứng dụng hay không và xem nó có phù hợp với việc dùng để phát triển ứng dụng. Ngôn ngữ lập trình nào không phù hợp với kiểu ứng dụng trực tuyến?",
+    "options": [
+      "SQL",
+      "Basic",
+      "Prolog",
+      "Ada"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Các ngôn ngữ thế hệ thứ hai: được phát triển từ cuối những năm 1950 đến đầu những năm 1960, như FORTRAN, COBOL, ALGOL, BASIC, ... Nó được xem là nền t..."
+  },
+  {
+    "id": 27,
+    "question": "Việc lựa chọn ngôn ngữ lập trình phải xem ngôn ngữ lập trình đó có phù hợp với kiểu ứng dụng hay không và xem nó có phù hợp với việc dùng để phát triển ứng dụng. Ngôn ngữ lập trình nào không phù hợp với kiểu ứng dụng hỏi đáp Cơ sở dữ liệu?",
+    "options": [
+      "SQL",
+      "Focus",
+      "Prolog",
+      "Ada"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Là ngôn ngữ thế hệ bốn bao gồm một Database Engine cùng ngôn ngữ hỏi đáp tương thích với SQL, bộ hiển thị, hệ hỗ trợ đồ hoạ, thiết kế, bảo trì và các ..."
+  },
+  {
+    "id": 28,
+    "question": "Việc lựa chọn ngôn ngữ lập trình phải xem ngôn ngữ lập trình đó có phù hợp với kiểu ứng dụng hay không và xem nó có phù hợp với việc dùng để phát triển ứng dụng. Ngôn ngữ lập trình nào không phù hợp với kiểu ứng dụng hỗ trợ quyết định?",
+    "options": [
+      "Ada",
+      "Focus",
+      "Cobol",
+      "Prolog"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Là ngôn ngữ thế hệ bốn bao gồm một Database Engine cùng ngôn ngữ hỏi đáp tương thích với SQL, bộ hiển thị, hệ hỗ trợ đồ hoạ, thiết kế, bảo trì và các ..."
+  },
+  {
+    "id": 29,
+    "question": "Việc lựa chọn ngôn ngữ lập trình phải xem ngôn ngữ lập trình đó có phù hợp với kiểu ứng dụng hay không và xem nó có phù hợp với việc dùng để phát triển ứng dụng. Ngôn ngữ lập trình nào phù hợp với kiểu ứng dụng EIS?",
+    "options": [
+      "Pascal",
+      "Prolog",
+      "C",
+      "SQL"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Prolog và các ngôn ngữ suy diễn khác tuy đơn giản trong việc mô tả và phát triển các luật đơn nhưng không tầm thường trong việc quyết định kết hợp các..."
+  },
+  {
+    "id": 30,
+    "question": "Trong lập trình đâu là đại lượng có giá trị thay đổi?",
+    "options": [
+      "Biến",
+      "Hằng",
+      "Giá trị số",
+      "Giá trị chuỗi"
+    ],
+    "answer": 0,
+    "explanation": "Biến (Variable) là một đại lượng được đặt tên và có giá trị có thể thay đổi trong quá trình thực thi chương trình.."
+  },
+  {
+    "id": 31,
+    "question": "Tính chất nào dưới đây mà ngôn ngữ lập trình hướng đối tượng không có?",
+    "options": [
+      "Tính kế thừa",
+      "Tính đa kế thừa",
+      "Tính đa hình",
+      "Tính logic"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình: Kiểm tra kiểu dữ liệu là việc ngôn ngữ kiểm tra sự phù hợp của kiểu dữ liệu được định nghĩa trong các phép toán học và các toán tử logic. Có bốn mức k..."
+  },
+  {
+    "id": 32,
+    "question": "Đâu là phần mở rộng ngôn ngữ lập trình web động?",
+    "options": [
+      "*.Jsp",
+      "*.C",
+      "*.bmp",
+      "*.CPP"
+    ],
+    "answer": 0,
+    "explanation": "JSP (Java Server Pages) là công nghệ và phần mở rộng tệp tin dùng để xây dựng các trang web động sử dụng ngôn ngữ Java.."
+  },
+  {
+    "id": 33,
+    "question": "Trong khai báo lớp(class) của lập trình hướng đối tượng gồm có:",
+    "options": [
+      "Thuộc tính, phương thức",
+      "Văn bản",
+      "Các thẻ",
+      "Các chú thích"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình: Khi một thiết kế thủ tục chi tiết được biểu diễn bằng cách dùng một ngôn ngữ thiết kế chương trình thì tài liệu thiết kế có thể được nhúng trực tiếp v..."
+  },
+  {
+    "id": 34,
+    "question": "Thuộc tính biểu diễn trong lập trình hướng đối lượng là:",
+    "options": [
+      "Hàm",
+      "Biến, hằng",
+      "Phương thức",
+      "Kế thừa"
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình: Bước 5: Áp dụng tính kế thừa: xây dựng các lớp trừu tượng có các thuộc tính chung, đây là một khâu đặc trưng của thiết kế hướng đối tượng...."
+  },
+  {
+    "id": 35,
+    "question": "Dòng chú thích trong lập trình để:",
+    "options": [
+      "Giải thích một vấn đề trong chương trình",
+      "Sinh mã khi chạy",
+      "Dùng kết quả để lập trình",
+      "Vô hiệu hóa chương trình"
+    ],
+    "answer": 0,
+    "explanation": "Dòng chú thích (comment) dùng để giải thích mã nguồn giúp con người dễ đọc hiểu, chương trình biên dịch sẽ bỏ qua chúng khi chạy.."
+  },
+  {
+    "id": 36,
+    "question": "Công ty muốn viết phần mềm quản lý sách. Theo bạn định hướng dùng loại ngôn ngữ lập trình nào?",
+    "options": [
+      "Lập trình hệ thống",
+      "Lập trình ngôn ngữ máy",
+      "Lập trình hướng cơ sở dữ liệu",
+      "Lập trình nhúng"
+    ],
+    "answer": 2,
+    "explanation": "Quản lý sách liên quan chặt chẽ đến lưu trữ dữ liệu, vì vậy cần định hướng dùng ngôn ngữ lập trình hướng cơ sở dữ liệu.."
+  },
+  {
+    "id": 37,
+    "question": "Độ phức tạp và việc tổ chức cấu trúc dữ liệu được xác định trong bước nào:",
+    "options": [
+      "Xác định yêu cầu phần mềm",
+      "Thiết kế phần mềm",
+      "Cài đặt phần mềm",
+      "Bảo trì phần mềm"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình trang 77, độ phức tạp và việc tổ chức cấu trúc dữ liệu được xác định trong bước Thiết kế phần mềm.."
+  },
+  {
+    "id": 38,
+    "question": "Phong cách khai báo dữ liệu được thiết lập khi nào:",
+    "options": [
+      "Chương trình được sinh ra",
+      "Thiết kế phần mềm",
+      "Xác định yêu cầu phần mềm",
+      "Bảo trì phần mềm"
+    ],
+    "answer": 0,
+    "explanation": "Theo giáo trình trang 77, phong cách khai báo dữ liệu được thiết lập khi chương trình được sinh ra (bước cài đặt/lập trình).."
+  },
+  {
+    "id": 39,
+    "question": "Các ngôn ngữ lập trình có những loại dữ liệu nào:",
+    "options": [
+      "Dữ liệu toàn cục và không có dữ liệu cục bộ",
+      "Dữ liệu cục bộ và không có dữ liệu toàn cục",
+      "Dữ liệu toàn cục và dữ liệu cục bộ",
+      "Dữ liệu địa phương và tham biến"
+    ],
+    "answer": 2,
+    "explanation": "Trong ngôn ngữ lập trình, dữ liệu được phân chia theo phạm vi truy cập thành dữ liệu toàn cục (global) và dữ liệu cục bộ (local).."
+  },
+  {
+    "id": 62,
+    "question": "Việc cấp phát bộ nhớ được chỉ được diễn ra khi cần thiết là loại cấp phát bộ nhớ nào:",
+    "options": [
+      "Cấp phát bộ nhớ tĩnh",
+      "Cấp phát bộ nhớ động",
+      "Cấp phát bộ nhớ chính",
+      "Cấp phát bộ nhớ phụ"
+    ],
+    "answer": 1,
+    "explanation": "Cấp phát bộ nhớ động (dynamic memory allocation) cho phép hệ thống chỉ cấp phát bộ nhớ khi chương trình chạy và thực sự có nhu cầu.."
+  },
+  {
+    "id": 40,
+    "question": "Cách thức cài đặt vào/ra có ảnh hưởng chủ yếu đến ai?",
+    "options": [
+      "Người sử dụng hệ thống",
+      "Lập trình viên",
+      "Người kiểm thử phần mềm",
+      "Người bảo trì phần mềm"
+    ],
+    "answer": 0,
+    "explanation": "Cách thức cài đặt vào/ra (I/O) tác động trực tiếp đến giao tiếp của người dùng, nên có ảnh hưởng lớn nhất đến người sử dụng hệ thống.."
+  },
+  {
+    "id": 41,
+    "question": "Kiểu dữ liệu tự định nghĩa là kiểu dữ liệu do lập trình viên định nghĩa và có giá trị trong phạm vi nào:",
+    "options": [
+      "Một chương trình con",
+      "Mọi ứng dụng",
+      "Mọi chương trình",
+      "Một chương trình hoặc một ứng dụng nhất định"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình: Sự tương đương của các chương trình trong việc mã hoá bởi các cấu trúc điều khiển đã được chỉ ra ở định lý Boehm&Jaccopini như sau: Mọi chương trình P..."
+  },
+  {
+    "id": 42,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: s = 1; p = 1; for (i=1;i<=n;i++) { p = p * x / i; s = s + p; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 0,
+    "explanation": "Đoạn mã có một vòng lặp chạy từ 1 đến n với các phép toán bên trong tốn thời gian hằng số O(1), do đó độ phức tạp là O(n).."
+  },
+  {
+    "id": 43,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: s=n*(n-1) /2;",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 1,
+    "explanation": "Đoạn mã chỉ chứa một biểu thức gán công thức toán học thực hiện trong thời gian hằng số, do đó độ phức tạp là O(1).."
+  },
+  {
+    "id": 44,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: for (i= 1;i<=n;i++) for (j= 1;j<=m;j++)",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n3)",
+      "Độ phức tạp của thuật toán là O(n*m)"
+    ],
+    "answer": 3,
+    "explanation": "Đoạn mã chứa hai vòng lặp lồng nhau chạy lần lượt n và m lần, do đó độ phức tạp thuật toán là O(n*m).."
+  },
+  {
+    "id": 45,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: s= 5*(a+b)2",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 1,
+    "explanation": "Đoạn mã chỉ là biểu thức tính toán số học hằng số, chạy trong thời gian hằng số, do đó độ phức tạp là O(1).."
+  },
+  {
+    "id": 46,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: for (i= 1;i<=n;i++) for (j= 1;j<=n;j++) for (k= 1;k<=n;k++)",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n3)",
+      "Độ phức tạp của thuật toán là O(n2)"
+    ],
+    "answer": 2,
+    "explanation": "Đoạn mã chứa ba vòng lặp lồng nhau đều chạy tối đa n lần, do đó độ phức tạp thuật toán là O(n^3)."
+  },
+  {
+    "id": 47,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: a = 2; b = 3; for (i=0;i<n;i++) { a = a * i; b = b + a; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 1,
+    "explanation": "Đoạn mã chỉ chứa một vòng lặp chạy n lần từ 0 đến n-1, do đó độ phức tạp thuật toán là O(n)."
+  },
+  {
+    "id": 48,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: a = 5; for (x = 0; x< n; x++) for (y = 0; y< n; y ++) a = a * x + y;",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 2,
+    "explanation": "Đoạn mã chứa hai vòng lặp lồng nhau đều chạy n lần từ 0 đến n-1, do đó độ phức tạp thuật toán là O(n^2).."
+  },
+  {
+    "id": 49,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: x = 0; for (i = 1; i <= n; i ++) for (j = 1;j <= n; j ++) x ++;",
+    "options": [
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 2,
+    "explanation": "Đoạn mã chứa hai vòng lặp lồng nhau chạy n lần từ 1 đến n, do đó độ phức tạp thuật toán là O(n^2)."
+  },
+  {
+    "id": 50,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: Q = 20 / (a * b) + c;",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 0,
+    "explanation": "Đoạn mã chỉ chứa câu lệnh gán phép tính số học chạy trong thời gian hằng số, do đó độ phức tạp thuật toán là O(1).."
+  },
+  {
+    "id": 51,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: R = 100 mod (a/b)2;",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 0,
+    "explanation": "Đoạn mã chỉ chứa phép chia lấy dư mod số học chạy trong thời gian hằng số, do đó độ phức tạp thuật toán là O(1).."
+  },
+  {
+    "id": 52,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: P = 0; Q = 0; for (i = 1;i <= n; i ++) for (j = 0; j < n; j ++) for (k = 1; k <= n; k ++) { P ++; Q --; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 3,
+    "explanation": "Đoạn mã chứa ba vòng lặp lồng nhau chạy n lần, do đó độ phức tạp thuật toán là O(n^3)."
+  },
+  {
+    "id": 53,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: P = 1000; Q = 0; for (i = 1;i <= n; i ++) for (j = 0; j < n; j ++) for (k = 1; k <= n; k ++) { P -= P; Q += Q; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n2)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 3,
+    "explanation": "Đoạn mã chứa ba vòng lặp lồng nhau chạy n lần, do đó độ phức tạp thuật toán là O(n^3)."
+  },
+  {
+    "id": 54,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: X = 5; Y = 100; for (i = 1;i <= n;i ++) for (j = 1;j <= m; j ++) { X = X + i; Y = Y - j; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n3)",
+      "Độ phức tạp của thuật toán là O(n * m)"
+    ],
+    "answer": 3,
+    "explanation": "Đoạn mã chứa hai vòng lặp lồng nhau chạy n và m lần, do đó độ phức tạp thuật toán là O(n*m)."
+  },
+  {
+    "id": 55,
+    "question": "Tính độ phức tạp của thuật toán trong đoạn giải thuật sau: X = 0; Y = 10; for (i = 1;i <= n;i ++) for (j = 1;j <= m; j ++) { X = X + 5 * i; Y = Y / j + 2; }",
+    "options": [
+      "Độ phức tạp của thuật toán là O(1)",
+      "Độ phức tạp của thuật toán là O(n)",
+      "Độ phức tạp của thuật toán là O(n*m)",
+      "Độ phức tạp của thuật toán là O(n3)"
+    ],
+    "answer": 2,
+    "explanation": "Đoạn mã chứa hai vòng lặp lồng nhau chạy n và m lần, do đó độ phức tạp thuật toán là O(n*m)."
+  },
+  {
+    "id": 56,
+    "question": "Chương trình P là một bộ biến đổi tuần tự P để chuyển cái vào x thành ra cái y trong đó:",
+    "options": [
+      "x và y hoàn toàn được xác định trước",
+      "x được xác định trước, y chưa được xác định trước",
+      "x chưa được xác định trước, y được xác định trước",
+      "x và y hoàn toàn chưa được xác định"
+    ],
+    "answer": 0,
+    "explanation": "Định nghĩa chương trình tuần tự là bộ biến đổi tuần tự P để chuyển dữ liệu vào x thành ra y trong đó x và y hoàn toàn được xác định trước.."
+  },
+  {
+    "id": 57,
+    "question": "Điều kiện để có mệnh đề B sau khi thực hiện lệnh gán x: = E (với E là một biểu thức) từ mệnh đề {A} thì trước đó ta phải có {A} suy dẫn được ra {B[x|E]} là nội dung của tiên đề nào:",
+    "options": [
+      "Tiên đề tuần tự",
+      "Tiên đề gán",
+      "Tiên đề rẽ nhánh",
+      "Tiên đề lặp"
+    ],
+    "answer": 1,
+    "explanation": "Tiên đề gán định nghĩa luật biến đổi trạng thái và điều kiện sau khi thực hiện lệnh gán giá trị của biểu thức cho một biến.."
+  },
+  {
+    "id": 58,
+    "question": "Với mệnh đề dữ liệu vào {A}, mệnh đề dữ liệu ra {B}, biểu thức logic E, và các đoạn chương trình P, Q. Nếu ta có {A, E}P{B} và {A,!E}Q{B} thì ta nói rằng mệnh đề {A} và {B} tuân theo cấu trúc rẽ nhánh dạng đủ với cấu trúc P, Q và điều kiện lựa chọn E; tức là: {A} if E then P else Q; {B} là nội dung của tiên đề nào:",
+    "options": [
+      "Tiên đề tuần tự",
+      "Tiên đề gán",
+      "Tiên đề rẽ nhánh",
+      "Tiên đề lặp"
+    ],
+    "answer": 2,
+    "explanation": "Tiên đề rẽ nhánh định nghĩa luật đúng đắn cho cấu trúc điều kiện dạng đủ (if-then-else) dựa trên cả hai nhánh đúng và sai.."
+  },
+  {
+    "id": 59,
+    "question": "Cho mệnh đề dữ liệu vào {A}, biểu thức logic E và đoạn trình P. Nếu mệnh đề {A} tuân theo cấu trúc lặp P với điều kiện lặp E thì mệnh đề {A} sẽ bất biến đối với P trong điều kiện E, tức là {A,E}P{A}, kết thúc vòng lặp ta có mệnh đề {A,!E}. Lúc này ta viết: {A} while E do P; {A,!E} là nội dung của tiên đề nào:",
+    "options": [
+      "Tiên đề tuần tự",
+      "Tiên đề gán",
+      "Tiên đề rẽ nhánh",
+      "Tiên đề lặp"
+    ],
+    "answer": 3,
+    "explanation": "Tiên đề lặp (loop axiom) sử dụng khái niệm bất biến vòng lặp (loop invariant) để chứng minh tính đúng đắn của vòng lặp while.."
+  },
+  {
+    "id": 60,
+    "question": "Cho mệnh đề dữ liệu vào {A} và đoạn chương trình P. Nếu ta có {A}P{A} thì ta nói rằng tính chất dữ liệu của mệnh đề {A} không thay đổi khi chịu sự tác động của đoạn chương trình P và lúc này người ta nói rằng mệnh đề {A} là bất biến đối với P, tức ta có: {A}P {A} là nội dung của tiên đề nào:",
+    "options": [
+      "Tiên đề tuần tự",
+      "Tiên đề gán",
+      "Tiên đề rẽ nhánh",
+      "Tiên đề về tính bất biến của chương trình"
+    ],
+    "answer": 3,
+    "explanation": "Tiên đề về tính bất biến của chương trình chứng minh rằng một đoạn chương trình P không làm thay đổi trạng thái của tính chất {A}.."
+  },
+  {
+    "id": 61,
+    "question": "\"Hệ thống lên kế hoạch, xem xét, đánh giá trên toàn bộ quy trình phát triển sản phẩm\" được gọi tắt là:",
+    "options": [
+      "QC",
+      "QA",
+      "QE",
+      "QI"
+    ],
+    "answer": 1,
+    "explanation": "QA (Quality Assurance - Đảm bảo chất lượng) là hệ thống các hoạt động lên kế hoạch, giám sát quy trình để đảm bảo chất lượng sản phẩm.."
+  }
+]

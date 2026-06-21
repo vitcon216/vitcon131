@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "question": "Công nghệ phần mềm (software engineering) là:",
+    "options": [
+      "A. Việc sử dụng các phần mềm.",
+      "B. Việc áp dụng các công cụ, các kỹ thuật một cách hệ thống trong việc phát triển các ứng dụng dựa trên máy tính.",
+      "C. Việc cài đặt và sử dụng các phần mềm một cách có hiệu quả trên máy vi tính.",
+      "D. Việc cài đặt và bảo trì các phần mềm một cách có hiệu quả trên máy vi tính."
+    ],
+    "answer": 1,
+    "explanation": "Công nghệ phần mềm là việc áp dụng các phương pháp, công cụ và kỹ thuật một cách hệ thống, có kỷ luật và có thể định lượng được vào việc phát triển, vận hành và bảo trì phần mềm."
+  },
+  {
+    "id": 2,
+    "question": "Tầng nào trong một mô hình của công nghệ phần mềm liên quan đến việc cung cấp các phương tiện hỗ trợ tự động hay bán tự động cho các tầng quá trình và phương pháp (công nghệ):",
+    "options": [
+      "A. Tầng công cụ",
+      "B. Tầng phương pháp",
+      "C. Tầng mô hình",
+      "D. Tầng quy trình"
+    ],
+    "answer": 0,
+    "explanation": "Tầng công cụ (Tools) cung cấp các phương tiện hỗ trợ tự động hoặc bán tự động cho tầng quy trình và tầng phương pháp (thường được gọi là các công cụ CASE - Computer-Aided Software Engineering)."
+  },
+  {
+    "id": 3,
+    "question": "Các đặc tính phần mềm là tất cả các điểm chung cho mọi ứng dụng. Đặc tính nào không phải là đặc tính phần mềm?",
+    "options": [
+      "A. Dữ liệu",
+      "B. Các tiến trình, các ràng buộc",
+      "C. Các giao diện",
+      "D. Thuật giải"
+    ],
+    "answer": 3,
+    "explanation": "Các đặc tính chung của phần mềm thường được định nghĩa gồm: Dữ liệu (Data), Các tiến trình/Các ràng buộc (Processes/Constraints), và Các giao diện (Interfaces). Thuật giải (Algorithm) là thành phần logic bên trong chương trình chứ không phải là đặc tính cấp cao chung của phần mềm."
+  },
+  {
+    "id": 4,
+    "question": "Phần mềm nhúng (Embedded) là phần mềm:",
+    "options": [
+      "A. Có mã nguồn được cung cấp miễn phí. Việc sử dụng phải tuân theo giấy phép sử dụng kèm theo mã nguồn",
+      "B. Cung cấp chức năng đặc biệt được dùng bởi cộng đồng lớn như phần mềm xử lý văn bản, bảng tính, đồ họa, multimedia, giải trí,…",
+      "C. Các chương trình được viết, thiết kế, lập trình chuyên biệt cho các thiết bị số và hoạt động song song với các thiết bị đó",
+      "D. Phục vụ cho các phần mềm khác"
+    ],
+    "answer": 2,
+    "explanation": "Phần mềm nhúng là phần mềm được thiết kế và nạp sẵn vào bộ nhớ của các thiết bị phần cứng kỹ thuật số chuyên biệt, hoạt động đồng thời và điều khiển các thiết bị đó."
+  },
+  {
+    "id": 5,
+    "question": "Người thực hiện những chức năng của các nhà phân tích, các nhà thiết kế và các lập trình viên được gọi là?",
+    "options": [
+      "A. Kỹ sư phần mềm",
+      "B. Lập trình viên",
+      "C. Nhà quản lý",
+      "D. Chuyên gia"
+    ],
+    "answer": 0,
+    "explanation": "Kỹ sư phần mềm (Software Engineer) là người đóng vai trò toàn diện bao gồm phân tích yêu cầu, thiết kế kiến trúc/hệ thống, lập trình và kiểm thử."
+  },
+  {
+    "id": 6,
+    "question": "Người có kiến thức và kinh nghiệm rộng rãi trong nhiều lĩnh vực bao gồm phát triển ứng dụng, mạng, cơ sở dữ liệu và hệ điều hành,... là ai?",
+    "options": [
+      "A. Chuyên gia kỹ thuật",
+      "B. Nhà lãnh đạo",
+      "C. Nhà quản lý",
+      "D. Người kiểm thử"
+    ],
+    "answer": 0,
+    "explanation": "Chuyên gia kỹ thuật (Technical Specialist) là người sở hữu kiến thức chuyên sâu và rộng rãi về nhiều mảng kỹ thuật khác nhau như mạng, hệ điều hành, cơ sở dữ liệu, và phát triển ứng dụng."
+  },
+  {
+    "id": 7,
+    "question": "Những người tham gia trực tiếp vào việc phát triển và xây dựng ra các sản phẩm CNTT được gọi là:",
+    "options": [
+      "A. Nhà chuyên môn",
+      "B. Quản trị hệ thống",
+      "C. Nhà phát triển hệ thống",
+      "D. Chuyên gia"
+    ],
+    "answer": 2,
+    "explanation": "Nhà phát triển hệ thống (System Developer) là những người trực tiếp tham gia thiết kế, phát triển và xây dựng nên các sản phẩm công nghệ thông tin."
+  },
+  {
+    "id": 8,
+    "question": "Ngành Công nghệ phần mềm ra đời vào khoảng thời gian nào?",
+    "options": [
+      "A. Vào những năm 50 khi bắt đầu có những phần mềm đầu tiên ra đời",
+      "B. Vào những năm 60 - 70 khi các phần mềm bộc lộ nhiều khuyết điểm",
+      "C. Vào đầu thế kỷ 21 khi Công nghệ thông tin đã trở nên phổ biến trên toàn cầu.",
+      "D. Vào những năm 80 khi mà phương pháp lập trình Hướng đối tượng ra đời"
+    ],
+    "answer": 1,
+    "explanation": "Ngành Công nghệ phần mềm ra đời vào cuối những năm 1960 (hội nghị NATO năm 1968) khi xảy ra cuộc 'khủng hoảng phần mềm' (software crisis) trong những năm 1960-1970, khi các phần mềm bộc lộ nhiều khuyết điểm về chi phí, tiến độ và chất lượng."
+  },
+  {
+    "id": 9,
+    "question": "Đâu không phải là 1 trong 3 đối tượng nghiên cứu chính của ngành Công nghệ phần mềm?",
+    "options": [
+      "A. Quy trình Công nghệ phần mềm",
+      "B. Phương pháp phát triển phần mềm",
+      "C. Công cụ và môi trường phát triển phần mềm",
+      "D. Nghiên cứu tính khả thi của các dự án phần mềm"
+    ],
+    "answer": 3,
+    "explanation": "Ba đối tượng nghiên cứu chính của Công nghệ phần mềm là: Quy trình (Process), Phương pháp (Methods) và Công cụ (Tools). Nghiên cứu tính khả thi là một hoạt động thuộc quy trình, không phải là một đối tượng nghiên cứu cốt lõi riêng biệt."
+  },
+  {
+    "id": 10,
+    "question": "Tính chất nào không phải là tính sáng tạo của phần mềm:",
+    "options": [
+      "A. Sản phẩm được thiết kế và cài đặt đầu tiên.",
+      "B. Sản phẩm được phục vụ cho những đặc thù riêng.",
+      "C. Sản phẩm có những đặc điểm khác về mặt nguyên lý so với các sản phẩm hiện hành.",
+      "D. Sản phẩm mang lại lợi nhuận cao cho nhất nhà sản xuất so với các sản phẩm trước đó"
+    ],
+    "answer": 3,
+    "explanation": "Tính sáng tạo của phần mềm thể hiện ở việc thiết kế mới, giải quyết bài toán đặc thù hoặc có nguyên lý đột phá. Mang lại lợi nhuận cao nhất cho nhà sản xuất là chỉ số tài chính/kinh doanh, không phản ánh tính sáng tạo kỹ thuật của phần mềm."
+  },
+  {
+    "id": 11,
+    "question": "Tính khoa học của một sản phẩm phần mềm thể hiện qua các yếu tố nào ?",
+    "options": [
+      "A. Cấu trúc, nội dung, hình thức thao tác",
+      "B. Cấu trúc, nội dung, thuật toán",
+      "C. Cấu trúc, chương trình, nội dung",
+      "D. Cấu trúc, nội dung, kiểm thử"
+    ],
+    "answer": 1,
+    "explanation": "Tính khoa học của phần mềm được thể hiện thông qua cấu trúc dữ liệu khoa học, nội dung thông tin chính xác và thuật toán (thuật giải) xử lý tối ưu, hợp lý."
+  },
+  {
+    "id": 12,
+    "question": "Phần mềm thỏa mãn tính chất nào là phần mềm mà có những hỏng hóc xuất hiện khi chương trình gặp phải lỗi được chấp nhận.",
+    "options": [
+      "A. Tính theo dõi được.",
+      "B. Tính dung thứ sai lầm.",
+      "C. Tính liên tác.",
+      "D. Tính súc tích."
+    ],
+    "answer": 1,
+    "explanation": "Tính dung thứ sai lầm (Fault tolerance) đảm bảo phần mềm vẫn hoạt động và các hỏng hóc phát sinh khi chương trình gặp lỗi nằm ở mức chấp nhận được, không gây sụp đổ toàn bộ hệ thống."
+  },
+  {
+    "id": 13,
+    "question": "Một sản phẩm phần mềm có các tính chất sau là thỏa mãn tiêu chuẩn nào:\n- Có cơ chế ngăn ngừa việc thâm nhập bất hợp pháp vào phần mềm hay dữ liệu và ngăn ngừa việc phát sinh ra những đối tượng (dữ liệu, đơn thể...) sai quy cách hoặc mâu thuẫn với các đối tượng sẵn có.\n- Không gây ra nhập nhằng trong thao tác, đảm bảo nhất quán về cú pháp.",
+    "options": [
+      "A. Tính toàn vẹn",
+      "B. Tính sáng tạo",
+      "C. Tính an toàn",
+      "D. Tính kiểm thử được"
+    ],
+    "answer": 0,
+    "explanation": "Tính toàn vẹn (Integrity) của phần mềm bao gồm khả năng bảo vệ dữ liệu tránh truy cập trái phép, ngăn ngừa mâu thuẫn dữ liệu và bảo đảm sự nhất quán cú pháp, không gây nhập nhằng thao tác."
+  },
+  {
+    "id": 14,
+    "question": "Đối với nhà sản xuất, phần mềm có chất lượng là phần mềm thỏa mãn các tính chất?",
+    "options": [
+      "A. Tính dùng lại, Dễ bảo trì, Dễ triển khai và cài đặt cho khách hàng, Dễ mở rộng.",
+      "B. Tính dùng lại, Tính tiện dụng, Dễ triển khai và cài đặt cho khách hàng, Dễ mở rộng.",
+      "C. Tính dùng lại, Dễ bảo trì, Tính bảo mật, Dễ mở rộng.",
+      "D. Tính dùng lại, Dễ bảo trì, Dễ triển khai và cài đặt cho khách hàng, Tính an toàn."
+    ],
+    "answer": 0,
+    "explanation": "Dưới góc nhìn của nhà sản xuất, chất lượng phần mềm được đánh giá bằng các tiêu chí nội bộ nhằm giảm thiểu chi phí phát triển và vận hành lâu dài: Tính dùng lại (Reusability), Dễ bảo trì (Maintainability), Dễ triển khai/cài đặt (Installability), Dễ mở rộng (Extensibility)."
+  },
+  {
+    "id": 15,
+    "question": "Đối với nhà sản xuất, phần mềm thỏa mãn tính dùng lại là phần mềm:",
+    "options": [
+      "A. Phần mềm viết theo hướng đối tượng (bao gồm các thành phần độc lập) dễ dàng sử dụng lại cho phần mềm khác, dự án khác.",
+      "B. Khi cần bảo trì dễ dàng biết được thành phần nào bảo trì và việc bảo trì không ảnh hưởng đến các thành phần khác.",
+      "C. Dễ dàng cài đặt, chuyển đổi từ máy này sang máy khác.",
+      "D. Dễ dàng phân tích thiết kế."
+    ],
+    "answer": 0,
+    "explanation": "Tính dùng lại (Reusability) có nghĩa là các thành phần độc lập trong mã nguồn (được viết theo hướng đối tượng hoặc module hóa) có thể dễ dàng tái sử dụng trong các hệ thống hoặc dự án khác mà không cần viết lại."
+  },
+  {
+    "id": 16,
+    "question": "Việc lựa chọn mô hình phát triển phần mềm thích hợp ít phải quan tâm tới tiêu chí nào?",
+    "options": [
+      "A. Phạm vi của tổ chức.",
+      "B. Loại sản phẩm được thực hiện.",
+      "C. Kỹ năng của đội ngũ nhân viên.",
+      "D. Giá cả của hợp đồng."
+    ],
+    "answer": 3,
+    "explanation": "Việc chọn mô hình phát triển phần mềm (SDLC) phụ thuộc chủ yếu vào đặc điểm kỹ thuật: Loại sản phẩm, kỹ năng đội ngũ, phạm vi tổ chức. Giá cả hợp đồng là yếu tố thương mại, ít ảnh hưởng trực tiếp đến việc quyết định mô hình kỹ thuật (thác nước, xoắn ốc, hay linh hoạt)."
+  },
+  {
+    "id": 17,
+    "question": "Khẳng định nào sau đúng:",
+    "options": [
+      "A. Những mô hình phát triển phần mềm mới nhất có quá nhiều ưu điểm và dường như không thể tìm thấy bất cứ những tồn tại nào cho bất kỳ tổ chức cá nhân phát tiển phần mềm nào hiện nay.",
+      "B. Những mô hình phát triển phần mềm cũ có quá nhiều nhược điểm và dường như không phù hợp với bất kỳ tổ chức cá nhân phát tiển phần mềm nào hiện nay.",
+      "C. Mỗi phần mềm chỉ có thể sử dụng 1 mô hình phát triển phần nào đấy.",
+      "D. Có thể kết hợp sử dụng nhiều mô hình phát triển phần mềm cùng lúc."
+    ],
+    "answer": 3,
+    "explanation": "Trong thực tế phát triển phần mềm, không có mô hình nào là vạn năng. Việc kết hợp nhiều mô hình (hybrid models) trong các giai đoạn hoặc các dự án con khác nhau là hoàn toàn khả thi và phổ biến."
+  },
+  {
+    "id": 18,
+    "question": "Mô hình phát triển phần mềm nào mà một giai đoạn tiếp theo được phát triển chỉ khi giai đoạn trước đó đã được hoàn tất ?",
+    "options": [
+      "A. Mô hình tuyến tính (The linear sequential model)",
+      "B. Mô hình mẫu (Prototyping model)",
+      "C. Mô hình xoắn ốc (The spiral model)",
+      "D. Mô hình phần mềm"
+    ],
+    "answer": 0,
+    "explanation": "Mô hình tuyến tính tuần tự (The linear sequential model), còn gọi là mô hình thác nước (Waterfall), quy định các giai đoạn (xác định yêu cầu, thiết kế, cài đặt, kiểm thử, bảo trì) phải được thực hiện lần lượt và giai đoạn sau chỉ bắt đầu khi giai đoạn trước hoàn thành."
+  },
+  {
+    "id": 19,
+    "question": "Đâu không phải là tên mô hình phát triển phần mềm?",
+    "options": [
+      "A. Mô hình lặp và tăng dần",
+      "B. Mô hình tiến hóa",
+      "C. Mô hình ISO",
+      "D. Mô hình CMMi"
+    ],
+    "answer": 2,
+    "explanation": "ISO (International Organization for Standardization) là một tổ chức quốc tế chuyên ban hành các tiêu chuẩn chất lượng (ví dụ: tiêu chuẩn đánh giá chất lượng phần mềm ISO 9126), không phải là tên một mô hình phát triển phần mềm."
+  },
+  {
+    "id": 20,
+    "question": "Mô hình phát triển phần mềm nào có 4 mục tiêu sau:\n- Planning: Xác định mục tiêu, tương tác và ràng buộc.\n- Risk analysis: Phân tích các lựa chọn và các chỉ định/giải quyết rủi ro.\n- Engineering: Phát triển sản phẩm.\n- Customer evaluation: Đánh giá của khách hàng.",
+    "options": [
+      "A. Mô hình xoắn ốc",
+      "B. Mô hình tuyến tính",
+      "C. Mô hình thác nước cổ điển",
+      "D. Mô hình đài phun nước"
+    ],
+    "answer": 0,
+    "explanation": "Mô hình xoắn ốc (Spiral Model) do Boehm đề xuất chia quy trình phát triển thành các chu kỳ, mỗi chu kỳ có 4 cung phần tư tương ứng với: Lập kế hoạch (Planning), Phân tích rủi ro (Risk Analysis), Thực hiện phát triển (Engineering), và Đánh giá từ khách hàng (Customer Evaluation)."
+  },
+  {
+    "id": 21,
+    "question": "Trong mô hình thác nước cổ điển, kết quả chuyển giao sau bước nào là mô hình xử lý, mô hình dữ liệu và các mô hình khác của phần mềm?",
+    "options": [
+      "A. Xác định yêu cầu",
+      "B. Phân tích",
+      "C. Thiết kế",
+      "D. Cài đặt"
+    ],
+    "answer": 1,
+    "explanation": "Giai đoạn Phân tích (Analysis) trong mô hình thác nước có nhiệm vụ làm rõ các yêu cầu logic của hệ thống, cho kết quả đầu ra là các mô hình logic như mô hình xử lý (luồng dữ liệu), mô hình dữ liệu (ERD), v.v. Các mô hình này sau đó làm đầu vào cho giai đoạn Thiết kế vật lý."
+  },
+  {
+    "id": 22,
+    "question": "Mô hình nào đưa ra hình ảnh hệ thống trong đầu của người dùng cuối:",
+    "options": [
+      "A. Mô hình thiết kế",
+      "B. Mô hình người dùng",
+      "C. Hình ảnh hệ thống",
+      "D. Mô hình nhận thức hệ thống"
+    ],
+    "answer": 3,
+    "explanation": "Mô hình nhận thức hệ thống (Mental Model) đại diện cho hình dung, niềm tin và cách hệ thống hoạt động được hình thành trong đầu của người dùng cuối thông qua trải nghiệm tương tác với hệ thống."
+  },
+  {
+    "id": 23,
+    "question": "Các mô tả yêu cầu phần mềm:",
+    "options": [
+      "A. Sẽ là cơ sở để cài đặt phần mềm",
+      "B. Sẽ là cơ sở để bảo trì phần mềm",
+      "C. Sẽ là cơ sở để tính toán giá trị của sản phẩm",
+      "D. Sẽ là cơ sở để nghiệm thu, đánh giá phần mềm khi được chuyển giao"
+    ],
+    "answer": 3,
+    "explanation": "Mô tả yêu cầu phần mềm (SRS) được xem là căn cứ pháp lý để nghiệm thu, đánh giá chất lượng sản phẩm xem có đạt yêu cầu thỏa thuận ban đầu giữa khách hàng và nhà phát triển hay không."
+  },
+  {
+    "id": 24,
+    "question": "Phát biểu nào sau đây không thể hiện quy tắc vàng \"Giảm thiểu việc ghi nhớ của người dùng\"?",
+    "options": [
+      "A. Nên tạo các mặc định thích hợp",
+      "B. Nên tạo các phím gõ tắt trực giác, dễ nhớ",
+      "C. Nên sắp xếp các giao diện gần gũi với thế giới thực",
+      "D. Người dùng được phép \\\"undo\\\" thao tác sai"
+    ],
+    "answer": 3,
+    "explanation": "Việc cho phép người dùng 'undo' (hoàn tác) thao tác sai thuộc về quy tắc vàng 'Cho phép dễ dàng đảo ngược các hành động' (Permit easy reversal of actions) chứ không trực tiếp thể hiện quy tắc giảm thiểu ghi nhớ ngắn hạn (Reduce short-term memory load)."
+  },
+  {
+    "id": 25,
+    "question": "Trong phân tích yêu cầu phần mềm yếu tố nào không cần xét đến.",
+    "options": [
+      "A. Khả thi về kinh tế",
+      "B. Khả thi về kỹ thuật",
+      "C. Khả thi về hợp pháp",
+      "D. Khả thi về nghệ thuật"
+    ],
+    "answer": 3,
+    "explanation": "Khi phân tích khả thi của dự án phần mềm, người ta đánh giá tính khả thi về kỹ thuật (Technical), kinh tế (Economic), pháp lý/hợp pháp (Legal) và vận hành (Operational). Tính khả thi về nghệ thuật không nằm trong các yếu tố kỹ nghệ tiêu chuẩn cần xét đến."
+  },
+  {
+    "id": 26,
+    "question": "\"Xác định yêu cầu chức năng\", nghĩa là:",
+    "options": [
+      "A. Đặc tả trừu tượng các ràng buộc mà hệ thống phải tuân theo.",
+      "B. Đặc tả các yêu cầu của người dùng.",
+      "C. Đặc tả trừu tượng các dịch vụ mà hệ thống phải cung cấp.",
+      "D. Đặc tả trừu tượng các nhu cầu của người dùng mà hệ thống phải cung cấp."
+    ],
+    "answer": 2,
+    "explanation": "Yêu cầu chức năng (Functional requirements) mô tả các dịch vụ hoặc chức năng cụ thể mà hệ thống phần mềm phải thực hiện và cung cấp cho người dùng."
+  },
+  {
+    "id": 27,
+    "question": "Tài liệu yêu cầu mà nó là một khẳng định, bằng ngôn ngữ tự nhiên hơn là các sơ đồ, về các dịch vụ hệ thống cần cung cấp và các ràng buộc mà hệ thống phải tuân theo là loại tài liệu nào?",
+    "options": [
+      "A. Tài liệu xác định yêu cầu",
+      "B. Tài liệu đặc tả yêu cầu",
+      "C. Tài liệu đặc tả phần mềm",
+      "D. Không có loại tài liệu nào"
+    ],
+    "answer": 0,
+    "explanation": "Tài liệu xác định yêu cầu (Requirements Definition) là bản mô tả trừu tượng về dịch vụ và ràng buộc hệ thống bằng ngôn ngữ tự nhiên để khách hàng có thể đọc và hiểu được, không chứa sơ đồ kỹ thuật phức tạp."
+  },
+  {
+    "id": 28,
+    "question": "Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào :",
+    "options": [
+      "A. Tính truy cập và tính tin cậy của hệ thống",
+      "B. Dữ liệu và điều khiển của hệ thống",
+      "C. Tính chức năng của hệ thống",
+      "D. Những chi tiết thực thi của hệ thống"
+    ],
+    "answer": 1,
+    "explanation": "Kiến trúc hệ thống định hình cấu trúc dữ liệu và cơ chế điều khiển luồng thông tin của toàn bộ hệ thống. Do đó dữ liệu và điều khiển là tiêu chuẩn nền tảng để đánh giá chất lượng của thiết kế kiến trúc."
+  },
+  {
+    "id": 29,
+    "question": "Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc không dùng khung nhìn nào?",
+    "options": [
+      "A. Dòng dữ liệu",
+      "B. Module",
+      "C. Tiến trình",
+      "D. Đặc tính"
+    ],
+    "answer": 3,
+    "explanation": "Trong phương pháp phân tích kiến trúc, người ta sử dụng các khung nhìn như Module, Tiến trình, Dòng dữ liệu, v.v. để mô tả kiến trúc. Đặc tính (Quality attributes) là mục tiêu chất lượng cần đáp ứng, không phải là khung nhìn kiến trúc."
+  },
+  {
+    "id": 30,
+    "question": "Công việc nào sau đây cần làm trước khi phân tích yêu cầu phần mềm.",
+    "options": [
+      "A. Lập trình",
+      "B. Kiểm thử",
+      "C. Sao lưu dữ liệu",
+      "D. Thu thập yêu cầu"
+    ],
+    "answer": 3,
+    "explanation": "Trước khi tiến hành phân tích chi tiết yêu cầu phần mềm, kỹ sư phần mềm bắt buộc phải thực hiện công đoạn thu thập yêu cầu (Requirements Elicitation) từ các bên liên quan."
+  },
+  {
+    "id": 31,
+    "question": "Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là:",
+    "options": [
+      "A. Kiểm tra lỗi mô hình hệ thống",
+      "B. Nhờ khách hàng kiểm tra yêu cầu",
+      "C. Gửi họ tới đội thiết kế và xem họ có sự quan tâm nào không",
+      "D. Dùng danh sách các câu hỏi kiểm tra để kiểm tra mỗi yêu cầu"
+    ],
+    "answer": 3,
+    "explanation": "Sử dụng danh sách câu hỏi kiểm tra (Checklist) là một phương pháp hệ thống, bài bản và hiệu quả nhất để đánh giá và thẩm định chất lượng của từng yêu cầu phần mềm."
+  },
+  {
+    "id": 32,
+    "question": "Khả năng được chấp nhận trong các yêu cầu đối với phần mềm:",
+    "options": [
+      "A. Là tính tin cậy",
+      "B. Là tính đúng",
+      "C. Là sự chấp nhận được về giao diện",
+      "D. Là sự phù hợp với yêu cầu người sử dụng"
+    ],
+    "answer": 3,
+    "explanation": "Tính chấp nhận được (Acceptability) của phần mềm thể hiện ở việc phần mềm đó phải phù hợp với yêu cầu thực tế, thói quen và môi trường làm việc của người sử dụng."
+  },
+  {
+    "id": 33,
+    "question": "Khi xác định yêu cầu phần mềm, các yêu cầu cần được tìm hiểu còn chứa các mâu thuẫn nào:",
+    "options": [
+      "A. Thông tin còn nhập nhằng, đã đầy đủ chức năng.",
+      "B. Dư thừa thông tin, đã đầy đủ chức năng.",
+      "C. Đặc tả phần mềm, đặc tả yêu cầu, hệ thống lỗi.",
+      "D. Thiếu rõ ràng, nhầm lẫn yêu cầu, trộn lẫn yêu cầu"
+    ],
+    "answer": 3,
+    "explanation": "Khi thu thập và xác định yêu cầu ban đầu từ người dùng, thông tin thường gặp phải các mâu thuẫn như: Thiếu rõ ràng (ambiguity), nhầm lẫn yêu cầu (misunderstanding), và trộn lẫn yêu cầu chức năng với phi chức năng."
+  },
+  {
+    "id": 34,
+    "question": "Khi một công ty muốn ký một hợp đồng cho một dự án phát triển một phần mềm, công ty sẽ phát biểu các yêu cầu ở mức nào để không bắt buộc định nghĩa trước các giải pháp.",
+    "options": [
+      "A. Mức chi tiết",
+      "B. Mức cụ thể",
+      "C. Mức chuyên sâu",
+      "D. Mức trừu tượng"
+    ],
+    "answer": 3,
+    "explanation": "Để tránh áp đặt các giải pháp kỹ thuật cụ thể từ trước và để tạo điều kiện linh hoạt cho nhà phát triển đề xuất giải pháp tốt nhất, khách hàng nên phát biểu yêu cầu ở mức trừu tượng (abstract level)."
+  },
+  {
+    "id": 35,
+    "question": "Để đánh giá yêu cầu phần mềm, một số khía cạnh của yêu cầu cần kiểm chứng là:",
+    "options": [
+      "A. Giá trị, tính khoa học, tính đầy đủ, tính dễ dùng",
+      "B. Giá trị, chắc chắn, tính an toàn, tính bảo mật",
+      "C. Hoàn chỉnh, hiện thực, tiện lợi, tính an toàn",
+      "D. Giá trị, chắc chắn, hoàn chỉnh, hiện thực, mẫu"
+    ],
+    "answer": 3,
+    "explanation": "Các khía cạnh cần kiểm chứng khi thẩm định yêu cầu phần mềm bao gồm: Giá trị (Value), Chắc chắn (Unambiguous), Hoàn chỉnh (Complete), Hiện thực (Realizable), và khả năng tạo mẫu (Prototypable)."
+  },
+  {
+    "id": 36,
+    "question": "Một bổ sung cần thiết nhằm biến đổi hay ánh xạ giao dịch để tạo một thiết kế kiến trúc đầy đủ là:",
+    "options": [
+      "A. Sơ đồ quan hệ - thực thể",
+      "B. Từ điển dữ liệu",
+      "C. Mô tả việc xử lý cho mỗi module",
+      "D. Những Test-case cho mỗi module"
+    ],
+    "answer": 2,
+    "explanation": "Khi ánh xạ giao dịch (transaction mapping) từ sơ đồ luồng dữ liệu sang sơ đồ cấu trúc, cần bổ sung tài liệu mô tả chi tiết quy trình xử lý của từng module để kiến trúc được hoàn chỉnh và có khả năng lập trình."
+  },
+  {
+    "id": 37,
+    "question": "Những nguyên lý thiết kế giao diện nào không cho phép người dùng còn điều khiển tương tác với máy tính:",
+    "options": [
+      "A. Cho phép được gián đoạn",
+      "B. Cho phép tương tác có thể undo",
+      "C. Che dấu những bản chất kỹ thuật với những người dùng thường",
+      "D. Chỉ cung cấp một cách thức xác định cứng khi hoàn thành tác vụ"
+    ],
+    "answer": 3,
+    "explanation": "Nguyên tắc thiết kế giao diện tốt phải cung cấp tính linh hoạt cho người dùng. Việc chỉ cung cấp một cách duy nhất, cứng nhắc để hoàn thành tác vụ sẽ tước đi quyền kiểm soát và lựa chọn của người dùng."
+  },
+  {
+    "id": 38,
+    "question": "Tính nhất quán (consistency) giao diện ngầm định gồm:",
+    "options": [
+      "A. Những kỹ thuật input giữ tương tự suốt ứng dụng",
+      "B. Mỗi ứng dụng phải có look and feel riêng biệt",
+      "C. Cách thức điều hướng (navigational) nhạy với ngữ cảnh",
+      "D. Những kỹ thuật input giữ tương tự suốt ứng dụng và mỗi ứng dụng phải có look and feel riêng biệt."
+    ],
+    "answer": 3,
+    "explanation": "Tính nhất quán ngầm định của giao diện đòi hỏi các kỹ thuật nhập liệu phải tương tự nhau trong suốt ứng dụng, đồng thời mỗi ứng dụng phải có một giao diện trực quan (look and feel) đặc trưng và nhất quán."
+  },
+  {
+    "id": 39,
+    "question": "Khái niệm \"Đặc tả yêu cầu\", nghĩa là:",
+    "options": [
+      "A. \\\"Yêu cầu được viết bằng ngôn ngữ tự nhiên về các dịch cụ mà hệ thống phải cung cấp\\\".",
+      "B. \\\"Yêu cầu được viết bằng ngôn ngữ chuyên ngành để mô tả chi tiết phần mềm\\\".",
+      "C. \\\"Yêu cầu được đặc tả bởi các biểu đồ ngữ cảnh, đồ thị và lược đồ quan hệ,… \\\".",
+      "D. \\\"Các dịch vụ được đặc tả một cách chi tiết, chính xác để có thể dùng làm cơ sở hợp đồng giữa hai bên.\\"
+    ],
+    "answer": 3,
+    "explanation": "Đặc tả yêu cầu (Requirements Specification) là tài liệu kỹ thuật mô tả chính xác, chi tiết các chức năng và ràng buộc của hệ thống để làm căn cứ ký kết hợp đồng và nghiệm thu sản phẩm giữa hai bên."
+  },
+  {
+    "id": 40,
+    "question": "Đặc tả mà ở đó các từ ngữ, cú pháp, ngữ nghĩa được định nghĩa hình thức dựa vào toán học là:",
+    "options": [
+      "A. Đặc tả hình thức.",
+      "B. Đặc tả phi hình thức.",
+      "C. Đặc tả hình thức và đặc tả phi hình thức.",
+      "D. Đặc tả sử dụng ngôn ngữ tự nhiên."
+    ],
+    "answer": 0,
+    "explanation": "Đặc tả hình thức (Formal specification) là phương pháp đặc tả sử dụng các ký hiệu và mô hình toán học chặt chẽ để định nghĩa cú pháp và ngữ nghĩa một cách chính xác."
+  },
+  {
+    "id": 41,
+    "question": "Đâu không phải là thuận lợi của việc sử dụng đặc tả hình thức:",
+    "options": [
+      "A. Nhiều người biết và dễ diễn đạt",
+      "B. Cho phép chúng ta thấy và hiểu được bản chất bên trong của các yêu cầu, đây là cách tốt nhất để làm giảm các lỗi, các thiếu sót có thể xảy ra và giúp cho công việc thiết kế được thuận lợi.",
+      "C. Do chúng ta sử dụng toán học cho việc đặc tả nên có thể dựa vào các công cụ toán học khi phân tích và điều này làm tăng thêm tính chắc chắn và tính đầy đủ của hệ thống.",
+      "D. Đặc tả hình thức, bản thân nó cho chúng ta một cách thức cho việc kiểm tra hệ thống sau này."
+    ],
+    "answer": 0,
+    "explanation": "Đặc tả hình thức sử dụng toán học chuyên sâu nên rất kén người đọc và khó diễn đạt đối với khách hàng thông thường. Do đó, 'nhiều người biết và dễ diễn đạt' là sai, đây thực chất là nhược điểm lớn của đặc tả hình thức."
+  },
+  {
+    "id": 42,
+    "question": "Đâu không phải là đặc điểm của đặc tả phi hình thức?",
+    "options": [
+      "A. Đặc tả sử dụng ngôn ngữ tự nhiên",
+      "B. Đặc tả được nhiều người biết",
+      "C. Đặc tả chặt chẽ ít có hiểu lầm",
+      "D. Đặc tả không chặt chẽ về ý nghĩa khoa học"
+    ],
+    "answer": 2,
+    "explanation": "Đặc tả phi hình thức (Informal specification) sử dụng ngôn ngữ tự nhiên nên có tính mập mờ, thiếu chặt chẽ và dễ gây hiểu lầm. Khẳng định 'đặc tả chặt chẽ ít có hiểu lầm' không phải là đặc điểm của đặc tả phi hình thức."
+  },
+  {
+    "id": 43,
+    "question": "Để phát triển các hệ thống tương đối phức tạp có những hướng tiếp cận đặc tả hình thức nào?",
+    "options": [
+      "A. Tiếp cận đại số, hệ thống được mô tả dưới dạng các toán tử và các quan hệ.",
+      "B. Tiếp cận mô hình, mô hình hệ thống được cấu trúc sử dụng các thực thể toán học như là các tập hợp và các thứ tự.",
+      "C. Tiếp cận đại số, hệ thống được mô tả dưới dạng các toán tử, các quan hệ và tiếp cận mô hình, mô hình hệ thống được cấu trúc sử dụng các thực thể toán học như là các tập hợp, các thứ tự.",
+      "D. Tiếp cận văn bản tự nhiên."
+    ],
+    "answer": 2,
+    "explanation": "Hai hướng tiếp cận chính trong đặc tả hình thức đối với các hệ thống phức tạp là: Tiếp cận đại số (Algebraic - đặc tả bằng toán tử, quan hệ) và Tiếp cận dựa trên mô hình (Model-based - cấu trúc bằng thực thể toán học như tập hợp, thứ tự)."
+  },
+  {
+    "id": 44,
+    "question": "Trong khẳng định dưới đây đâu là nguyên lý đặc tả yêu cầu:",
+    "options": [
+      "A. Đặc tả hệ thống phải là một mô hình thiết kế",
+      "B. Đặc tả hệ thống phải là một mô hình cài đặt",
+      "C. Đặc tả hệ thống phải là một mô hình kết nối thiết bị",
+      "D. Đặc tả hệ thống phải là một mô hình nhận thức"
+    ],
+    "answer": 3,
+    "explanation": "Nguyên lý đặc tả yêu cầu quy định đặc tả hệ thống phải đóng vai trò là một mô hình nhận thức (cognitive model), phản ánh cách người dùng hiểu về thế giới thực chứ không phải mô hình thiết kế hay cài đặt kỹ thuật."
+  },
+  {
+    "id": 45,
+    "question": "Đâu không phải là nguyên lý đặc tả yêu cầu.",
+    "options": [
+      "A. Phân tách chức năng với cài đặt",
+      "B. Cần tới ngôn ngữ đặc tả hệ thống hướng tiến trình",
+      "C. Đặc tả phải bao gồm cả môi trường mà hệ thống vận hành",
+      "D. Đặc tả hệ thống phải là một mô hình kết nối thiết bị."
+    ],
+    "answer": 3,
+    "explanation": "Đặc tả hệ thống không được là mô hình kết nối thiết bị vật lý, mà phải tập trung vào hành vi chức năng và các ràng buộc logic của phần mềm trong môi trường vận hành."
+  },
+  {
+    "id": 46,
+    "question": "Khi đặc tả yêu cầu, người xây dựng hệ thống không cần quan tâm tới yêu cầu nào sau đây?",
+    "options": [
+      "A. Đầu ra của hệ thống là cái gì.",
+      "B. Hệ thống sẽ phải làm cái gì để có kết quả mong muốn, nghĩa là phải xử lý những cái gì.",
+      "C. Các phương án sẽ tiếp cận hệ thống để hoàn tất sản phẩm.",
+      "D. Hệ thống sẽ phải có phải làm như thế nào để có kết quả mong muốn."
+    ],
+    "answer": 2,
+    "explanation": "Khi đặc tả yêu cầu (Requirement Specification), nhà phát triển chỉ quan tâm đến hệ thống sẽ làm CÁI GÌ (What). Các phương án tiếp cận kỹ thuật chi tiết để hoàn thành sản phẩm (How) thuộc về giai đoạn thiết kế và cài đặt, không cần đưa vào đặc tả yêu cầu."
+  },
+  {
+    "id": 47,
+    "question": "Đâu không phải là yêu cầu cần được thỏa mãn của tài liệu yêu cầu phần mềm?",
+    "options": [
+      "A. Nó cần mô tả các hành vi hệ thống bên ngoài",
+      "B. Nó cần mô tả các ràng buộc về thực hiện",
+      "C. Nó phải là công cụ tham chiếu cho người bảo trì hệ thống",
+      "D. Nó cần phải cố định không được thay đổi"
+    ],
+    "answer": 3,
+    "explanation": "Yêu cầu phần mềm luôn có sự tiến hóa và thay đổi theo thời gian. Do đó, tài liệu yêu cầu phần mềm (SRS) không được cố định cứng nhắc mà phải có khả năng cập nhật và bảo trì."
+  },
+  {
+    "id": 48,
+    "question": "Thành phần nào không phải là của tài liệu yêu cầu phần mềm:\n1. Giới thiệu\n2. Thuật ngữ\n3. Mô hình hệ thống\n4. Định nghĩa yêu cầu chức năng\n5. Định nghĩa yêu cầu phi chức năng\n6. Tiến triển thực hiện từng giai đoạn\n7. Đặc tả yêu cầu",
+    "options": [
+      "A. 1 - 6",
+      "B. 2 - 6",
+      "C. 7",
+      "D. 6"
+    ],
+    "answer": 3,
+    "explanation": "Thành phần 'Tiến triển thực hiện từng giai đoạn' (mục 6) thuộc về kế hoạch quản lý dự án (Project Schedule/Plan), không thuộc nội dung của tài liệu đặc tả yêu cầu phần mềm (SRS)."
+  },
+  {
+    "id": 49,
+    "question": "Đâu không phải là khó khăn của đặc tả hình thức?",
+    "options": [
+      "A. Linh hoạt, mềm dẻo dẫn đến sự hiểu nhầm giữa hai bên.",
+      "B. Khách hàng không thích đặc tả hình thức.",
+      "C. Quản lý phần mềm có tính bảo thủ cố hữu của nó, không sẵn sàng chấp nhận các kỹ thuật mới.",
+      "D. Chi phí cho việc đặc tả hình thức thường cao hơn so với các đặc tả khác."
+    ],
+    "answer": 0,
+    "explanation": "Đặc tả hình thức sử dụng toán học nên có tính chặt chẽ, chính xác tuyệt đối và rất cứng nhắc, không hề 'linh hoạt, mềm dẻo dẫn đến hiểu nhầm'. Sự mập mờ, hiểu nhầm là nhược điểm của đặc tả phi hình thức."
+  },
+  {
+    "id": 50,
+    "question": "\"Tập hợp ba hoặc nhiều hơn một số người cho một thời hạn nhất định để thảo luận một số chủ đề\" là kỹ thuật thu thập dữ liệu nào?",
+    "options": [
+      "A. Phỏng vấn",
+      "B. Họp nhóm",
+      "C. Quan sát",
+      "D. Xem xét tài liệu"
+    ],
+    "answer": 1,
+    "explanation": "Họp nhóm (Focus groups / Group meetings) là kỹ thuật thu thập thông tin bằng cách tập hợp một nhóm người (từ 3 người trở lên) thảo luận tập trung về các chủ đề được định sẵn trong một khoảng thời gian cụ thể."
+  },
+  {
+    "id": 51,
+    "question": "\"Người thực hiện ngồi tại một chỗ và ghi chép các hoạt động, các bước xử lý công việc hoặc máy tính sẽ lưu giữ các chương trình thường trú, lưu lại vết của các chương trình được sử dụng, email và các hoạt động khác được xử lý bởi máy\" là kỹ thuật thu thập dữ liệu nào?",
+    "options": [
+      "A. Quan sát",
+      "B. Phỏng vấn",
+      "C. Xem xét tài liệu",
+      "D. Ấn định công việc tạm thời"
+    ],
+    "answer": 0,
+    "explanation": "Đây là kỹ thuật Quan sát (Observation), có thể là quan sát trực tiếp (ghi chép hành động của người dùng) hoặc quan sát gián tiếp qua hệ thống máy tính tự động ghi lại lịch sử thao tác."
+  },
+  {
+    "id": 52,
+    "question": "\"Đóng vai người sử dụng phần mềm và thực hiện các công việc chuyên môn trong một khoảng thời gian nhất định\" là kỹ thuật thu thập dữ liệu nào?",
+    "options": [
+      "A. Họp nhóm",
+      "B. Ấn định công việc tạm thời",
+      "C. Quan sát",
+      "D. Phỏng vấn"
+    ],
+    "answer": 1,
+    "explanation": "Ấn định công việc tạm thời (Temporary job assignment / Apprenticeship) là kỹ thuật mà kỹ sư phần mềm trực tiếp học việc, đóng vai và làm việc như một người dùng thực thụ để tự mình trải nghiệm các nghiệp vụ cần tin học hóa."
+  },
+  {
+    "id": 53,
+    "question": "Các câu hỏi sau: “Ông có thể nói cho tôi về...”, “Ông nghĩ thế nào về...”, “Ông có thể mô tả làm thế nào...” thuộc dạng câu hỏi nào của kỹ thuật phỏng vấn?",
+    "options": [
+      "A. Câu hỏi mở",
+      "B. Câu hỏi đóng",
+      "C. Câu hỏi dễ",
+      "D. Câu hỏi khó"
+    ],
+    "answer": 0,
+    "explanation": "Các câu hỏi này khuyến khích đối tượng được phỏng vấn tự do chia sẻ, giải thích rộng rãi các suy nghĩ, ý kiến cá nhân thay vì chỉ trả lời Có/Không hay chọn các phương án cố định, đó là câu hỏi mở (Open-ended questions)."
+  },
+  {
+    "id": 54,
+    "question": "Đâu không phải là ưu điểm của phỏng vấn có cấu trúc?",
+    "options": [
+      "A. Dễ quản lý và đánh giá",
+      "B. Đánh giá được nhiều mục đích",
+      "C. Không cần đào tạo nhiều",
+      "D. Có khả năng mềm dẻo nhất"
+    ],
+    "answer": 3,
+    "explanation": "Phỏng vấn có cấu trúc (Structured interview) đi theo một kịch bản câu hỏi định sẵn một cách chặt chẽ, vì vậy tính linh hoạt, mềm dẻo của nó rất thấp. 'Có khả năng mềm dẻo nhất' là đặc điểm của phỏng vấn không cấu trúc (Unstructured interview)."
+  },
+  {
+    "id": 55,
+    "question": "Đâu không phải là công việc thường được tiến hành cho cuộc phỏng vấn",
+    "options": [
+      "A. Tiến hành đặt cuộc hẹn phù hợp với thời gian của phỏng vấn",
+      "B. Chuẩn bị tốt, tìm hiểu kỹ về người được phỏng vấn",
+      "C. Có kế hoạch cho cuộc phỏng vấn",
+      "D. Ghi chép các hoạt động, các bước xử lý công việc"
+    ],
+    "answer": 3,
+    "explanation": "Công việc ghi chép các hoạt động và các bước xử lý công việc trực tiếp là thuộc về kỹ thuật Quan sát hoặc Nhật ký công việc, không phải là hoạt động chuẩn bị hay tiến hành của một cuộc phỏng vấn."
+  },
+  {
+    "id": 56,
+    "question": "Đâu không phải là nhược điểm của phương pháp phỏng vấn:",
+    "options": [
+      "A. Phỏng vấn và các dạng khác của thu thập dữ liệu có thể làm bạn lạc lối, thiếu chính xác, hoặc thông tin không liên quan, không thích hợp.",
+      "B. Bạn cần học cách đọc ngôn ngữ cử chỉ và thói quen để quyết định được các điều cần thiết cho cùng một thông tin.",
+      "C. Đòi hỏi kỹ năng",
+      "D. Phỏng vấn không thích hợp cho việc nhận các thông tin cần đảm bảo cả số lượng lẫn chất lượng:"
+    ],
+    "answer": 2,
+    "explanation": "Trong các nhược điểm được liệt kê, 'Đòi hỏi kỹ năng' là điều kiện/yêu cầu năng lực đối với người phỏng vấn để cuộc phỏng vấn có chất lượng tốt, không phải là khuyết điểm nội tại hay nhược điểm của phương pháp phỏng vấn."
+  },
+  {
+    "id": 57,
+    "question": "Đâu không là ưu điểm của phương pháp họp nhóm:",
+    "options": [
+      "A. Có thể tạo ra quyết định.",
+      "B. Nhận được cả thông tin tổng hợp và chi tiết.",
+      "C. Phương pháp tốt cho các yêu cầu bên ngoài .",
+      "D. Kỹ sư phần mềm có thể tập trung vào vấn đề, mà không bị ảnh hưởng bởi người khác"
+    ],
+    "answer": 3,
+    "explanation": "Họp nhóm tập hợp nhiều người thảo luận nên kỹ sư phần mềm thường xuyên bị xao nhãng hoặc chịu ảnh hưởng từ các ý kiến trái chiều khác nhau, do đó nói 'không bị ảnh hưởng bởi người khác' là sai."
+  },
+  {
+    "id": 58,
+    "question": "Tính hướng thời gian của dữ liệu đề cập tới gồm:",
+    "options": [
+      "A. Quá khứ và đòi hỏi tương lai",
+      "B. Quá khứ, hiện tại và không đòi hỏi tương lai",
+      "C. Hiện tại và đòi hỏi tương lai",
+      "D. Quá khứ, hiện tại và đòi hỏi tương lai"
+    ],
+    "answer": 3,
+    "explanation": "Tính hướng thời gian của dữ liệu khảo sát hệ thống đòi hỏi phải xem xét cả dữ liệu Quá khứ (lịch sử biến đổi), Hiện tại (quy trình đang chạy) và những Đòi hỏi của tương lai (yêu cầu phát triển sắp tới)."
+  },
+  {
+    "id": 59,
+    "question": "Nhược điểm nào không phải là của phỏng vấn có cấu trúc?",
+    "options": [
+      "A. Chi phí chuẩn bị lớn",
+      "B. Tính cấu trúc có thể không thích hợp cho mọi tình huống",
+      "C. Giảm tính chủ động của các người phỏng vấn",
+      "D. Tốn thời gian lựa chọn và phân tích thông tin"
+    ],
+    "answer": 3,
+    "explanation": "Phỏng vấn có cấu trúc thu thập thông tin theo form mẫu nhất quán nên việc lựa chọn, tổng hợp và phân tích dữ liệu rất nhanh chóng. Do đó, 'Tốn thời gian lựa chọn và phân tích thông tin' là nhược điểm của phỏng vấn không cấu trúc, không phải của phỏng vấn có cấu trúc."
+  },
+  {
+    "id": 60,
+    "question": "Tính cấu trúc của đặc tính dữ liệu:",
+    "options": [
+      "A. Đặc biệt quan trọng bởi vì thiếu nó ta có thể tạo ứng dụng sai",
+      "B. Đặc biệt quan trọng bởi vì thiếu nó ta có thể xác định yêu cầu sai",
+      "C. Đặc biệt quan trọng bởi vì thiếu nó ta có thể phân tích ứng dụng sai",
+      "D. Đặc biệt quan trọng bởi vì thiếu nó ta có thể cài đặt ứng dụng sai ."
+    ],
+    "answer": 0,
+    "explanation": "Đặc tính dữ liệu và cấu trúc của nó quyết định nền tảng cơ sở dữ liệu và xử lý của hệ thống. Nếu không xác định rõ tính cấu trúc này, việc xây dựng và cài đặt ứng dụng dễ bị sai lệch về bản chất dữ liệu, dẫn đến tạo ứng dụng sai."
+  }
+]

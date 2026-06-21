@@ -1,0 +1,966 @@
+{
+  "5": [
+    {
+      "id": 1,
+      "question": "Kiểm tra chất lượng phần mềm là một hoạt động khó được chấp nhận đối với ai vì nó tốn kém, mất thời gian và hiếm khi phát hiện được lỗi?",
+      "options": [
+        "Khách hàng",
+        "Chuyên gia kỹ thuật",
+        "Nhà quản lý",
+        "Lập trình viên"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Kiểm thử chấp nhận của người dùng được định nghĩa là một loại kiểm thử thực hiện bởi khách hàng để xác nhận hệ thống đã làm việc đúng như mong đợi và ..."
+    },
+    {
+      "id": 2,
+      "question": "Khi phân tích chất lượng, phần mềm gặp lỗi chiến lược là loại lỗi nào:",
+      "options": [
+        "Ý đồ thiết kế sai.",
+        "Lỗi được truyền từ chương trình này sang chương trình khác",
+        "Lỗi viết sai quy định của ngôn ngữ",
+        "Lỗi xảy ra khi một đơn vị chương trình làm thay đổi giá trị của một biến ngoài ý kiến của lập trình viên"
+      ],
+      "answer": 0,
+      "explanation": "Lỗi chiến lược (strategic error) là lỗi nghiêm trọng xuất phát từ việc hiểu sai yêu cầu hoặc ý đồ thiết kế hệ thống bị sai ngay từ đầu.."
+    },
+    {
+      "id": 3,
+      "question": "Khi phân tích chất lượng, phần mềm gặp lỗi cú pháp là loại lỗi nào",
+      "options": [
+        "Ý đồ thiết kế sai",
+        "Lỗi được truyền từ chương trình này sang chương trình khác",
+        "Lỗi viết sai quy định của ngôn ngữ",
+        "Lỗi xảy ra khi một đơn vị chương trình làm thay đổi giá trị của một biến ngoài ý kiến của lập trình viên"
+      ],
+      "answer": 2,
+      "explanation": "Lỗi cú pháp (syntax error) là lỗi vi phạm quy tắc ngữ pháp của ngôn ngữ lập trình và bị phát hiện ngay khi biên dịch.."
+    },
+    {
+      "id": 4,
+      "question": "Khi phân tích chất lượng phần mềm, phần mềm gặp lỗi hiệu ứng phụ là loại lỗi nào?",
+      "options": [
+        "Ý đồ thiết kế sai",
+        "Lỗi được truyền từ chương trình này sang chương trình khác.",
+        "Lỗi viết sai quy định của ngôn ngữ",
+        "Lỗi xảy ra khi một đơn vị chương trình làm thay đổi giá trị của một biến ngoài ý kiến của lập trình viên"
+      ],
+      "answer": 3,
+      "explanation": "Hiệu ứng phụ (side effect) xảy ra khi một hàm/chương trình con thay đổi giá trị của một biến ngoài ý muốn của lập trình viên.."
+    },
+    {
+      "id": 5,
+      "question": "Đâu không là công việc của đặc tả độ tin cậy phần mềm?",
+      "options": [
+        "Phân tích hệ quả của các thất bại.",
+        "Chia các thất bại thành các nhóm khác nhau.",
+        "Thiết lập các yêu cầu về độ tin cậy bằng cách sử dụng các độ đo thích hợp cho từng loại.",
+        "Tìm các thất bại để tìm ra cá nhân phải chịu trách nhiệm về thất bại đó."
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: + Phân tích hệ quả của các thất bại...."
+    },
+    {
+      "id": 6,
+      "question": "Mục tiêu chủ yếu của thử nghiệm tĩnh là:",
+      "options": [
+        "Xác định độ tin cậy của phần mềm",
+        "Xác định các hư hỏng phần mềm",
+        "Xác định các yêu cầu của phần mềm",
+        "Xác định các chức năng của phần mềm"
+      ],
+      "answer": 0,
+      "explanation": "Thử nghiệm tĩnh (reliability testing) nhằm mục tiêu đánh giá và xác định độ tin cậy tổng thể của phần mềm.."
+    },
+    {
+      "id": 7,
+      "question": "Quá trình thử nghiệm tĩnh liên quan đến 4 bước sau: 1. Xác định độ đo thao tác phần mềm. 2. Chọn ra hoặc sinh ra một tập các dữ liệu thử tương ứng với độ đo đó. 3. Áp dụng các trường hợp thử chương trình, ghi lại độ dài thời gian thi hành giữa mỗi cặp thất bại quan sát được. 4. Tính toán độ đo mức tin cậy sau một số đáng kể (về mặt thống kê) các thất bại đã quan sát được. Thứ tự các bước là:",
+      "options": [
+        "1 – 2 – 3 – 4",
+        "4 – 2 – 1 – 3",
+        "1 – 2 – 4 – 3",
+        "1 – 3 – 2 – 4"
+      ],
+      "answer": 0,
+      "explanation": "Quá trình đánh giá độ tin cậy diễn ra tuần tự: Xác định độ đo -> Sinh dữ liệu thử -> Chạy thử ghi nhận thất bại -> Tính toán độ tin cậy.."
+    },
+    {
+      "id": 8,
+      "question": "Các phần mềm có thể gián tiếp gây ra thương vong, thí dụ hệ thống phần mềm trợ giúp thiết kế kỹ thuật, hệ thống cơ sở dữ liệu y tế liên quan đến các chất độc bảng A là loại phần mềm nào?",
+      "options": [
+        "Phần mềm an toàn sinh mệnh sơ cấp",
+        "Phần mềm an toàn sinh mệnh thứ cấp",
+        "Phần mềm thời gian thực",
+        "Phần mềm mã nguồn mở"
+      ],
+      "answer": 1,
+      "explanation": "Phần mềm an toàn sinh mệnh thứ cấp (secondary safety-critical) là phần mềm gián tiếp gây ra tai nạn (ví dụ: lỗi CSDL y tế).."
+    },
+    {
+      "id": 9,
+      "question": "Cách phát triển chương trình mà người lập trình giả định rằng các mâu thuẫn hoặc các lỗi chưa được phát hiện có thể tồn tại trong chương trình là:",
+      "options": [
+        "Lập trình phòng thủ",
+        "Lập trình vì độ tin cậy",
+        "Lập trình tránh lỗi",
+        "Lập trình tha thứ lỗi"
+      ],
+      "answer": 0,
+      "explanation": "Lập trình phòng thủ (defensive programming) giả định mã nguồn luôn có thể chứa lỗi và chủ động viết mã kiểm tra để tránh sụp đổ hệ thống.."
+    },
+    {
+      "id": 10,
+      "question": "Xác minh và thẩm định phần mềm là công việc diễn ra ở giai đoạn nào của quá trình sản xuất phần mềm",
+      "options": [
+        "Là một quá trình kéo dài suốt vòng đời của phần mềm",
+        "Là công việc nằm ở giai đoạn phân tích yêu cầu phần mềm",
+        "Là công việc diễn ra ở giai đoạn cài đặt chương trình",
+        "Là công việc diễn ra ở giai đoạn bảo trì phần mềm"
+      ],
+      "answer": 0,
+      "explanation": "Hoạt động xác minh (Verification) và thẩm định (Validation) - V&V - là một quá trình liên tục diễn ra suốt toàn bộ vòng đời phần mềm.."
+    },
+    {
+      "id": 11,
+      "question": "Việc xem xét cái được xây dựng có là sản phẩm đúng không? Tức là kiểm tra xem chương trình có được như mong đợi của người dùng hay không là công việc nào:",
+      "options": [
+        "Thẩm định",
+        "Xác minh",
+        "Kiểm thử",
+        "Bảo trì"
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: Một số công ty phát triển phần mềm thường bỏ qua bước này vì ngân sách eo hẹp và cho rằng nó sẽ không dẫn đến hậu quả lớn. Nhưng để tạo những trải ngh..."
+    },
+    {
+      "id": 12,
+      "question": "Việc xem xét cái được xây dựng có đúng là sản phẩm không? Như thế là kiểm tra xem chương trình có phù hợp với đặc tả hay không là công việc nào:",
+      "options": [
+        "Thẩm định",
+        "Xác minh",
+        "Bảo trì",
+        "Phân tích"
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: Công việc bảo trì đầu tiên cần phải thực hiện là do việc kiểm tra chương trình không thể tránh được mội lỗi ẩn chứa bên trong một hệ phần mềm lớn. Tro..."
+    },
+    {
+      "id": 13,
+      "question": "1. Đặc tả độ tin cậy phần mềm gồm các bước: a. Chia các thất bại thành các nhóm khác nhau. b. Thiết lập các yêu cầu về độ tin cậy bằng cách sử dụng các độ đo thích hợp cho từng loại. c. Phân tích hệ quả của các thất bại. Thứ tự đúng của các bước là:",
+      "options": [
+        "c a b",
+        "a b c",
+        "b c a",
+        "c b a"
+      ],
+      "answer": 0,
+      "explanation": "Quy trình đặc tả độ tin cậy: Phân tích hệ quả thất bại -> Phân nhóm thất bại -> Thiết lập yêu cầu độ tin cậy bằng độ đo tương ứng.."
+    },
+    {
+      "id": 14,
+      "question": "Độ tin cậy là một đặc trưng động của hệ thống, nó là:",
+      "options": [
+        "Một hàm của số các chức năng phần mềm",
+        "Một hàm của số các kiểu dữ liệu trong phần mềm",
+        "Một hàm của số các thất bại phần mềm",
+        "Một hàm của số các tiêu chí đánh giá chất lượng phần mềm"
+      ],
+      "answer": 2,
+      "explanation": "Độ tin cậy là đặc trưng động, được tính toán dựa trên tần suất xuất hiện các thất bại (failures) của phần mềm khi chạy.."
+    },
+    {
+      "id": 15,
+      "question": "Khi phân tích chất lượng, đâu không phải là lỗi phần mềm:",
+      "options": [
+        "Tính toán chưa đầy đủ thời gian hoàn thành dự án",
+        "Lỗi chiến lược: ý đồ thiết kế sai",
+        "Phân tích các yêu cầu không đầy đủ hoặc lệch lạc",
+        "Hiểu sai về các chức năng"
+      ],
+      "answer": 0,
+      "explanation": "Ước lượng thời gian hoàn thành sai là lỗi quản trị dự án, không phải lỗi kỹ thuật (software defect) nằm trong mã nguồn phần mềm.."
+    },
+    {
+      "id": 16,
+      "question": "Kiểm tra là một quá trình của tìm kiếm lỗi, đâu là kiểu lỗi của ứng dụng?",
+      "options": [
+        "Không làm những điều cần phải làm và không làm những điều không cần làm",
+        "Không những điều không cần làm",
+        "Không làm những điều cần phải làm và làm những điều không cần làm",
+        "Làm những điều cần phải làm và làm những điều không cần làm"
+      ],
+      "answer": 2,
+      "explanation": "Kiểm thử phần mềm hướng tới hai mục tiêu: phát hiện việc phần mềm không làm đúng yêu cầu, hoặc làm những việc không được yêu cầu.."
+    },
+    {
+      "id": 17,
+      "question": "Trong quá trình kiểm thử phần mềm, một kiểm tra thành công là kiểm tra:",
+      "options": [
+        "Tìm ra được các lỗi mới",
+        "Tìm ra được lỗi giải thuật",
+        "Tìm ra được lỗi thiết kế",
+        "Không tìm được lỗi"
+      ],
+      "answer": 0,
+      "explanation": "Một ca kiểm thử thành công là ca kiểm thử phát hiện ra được những lỗi mới chưa từng được biết đến trước đó.."
+    },
+    {
+      "id": 18,
+      "question": "Các kiểm tra của đội dự án được gọi là kiểm tra phát triển (Development test). Đâu không phải là kiểm tra phát triển?",
+      "options": [
+        "Kiểm tra đơn vị (Unit test)",
+        "Kiểm tra tích hợp (Subsystem integration test)",
+        "Kiểm tra hệ thống (System test)",
+        "Kiểm tra mã nguồn(Code test)"
+      ],
+      "answer": 3,
+      "explanation": "Kiểm tra phát triển do đội dự án thực hiện gồm: kiểm tra đơn vị, kiểm tra tích hợp, kiểm tra hệ thống."
+    },
+    {
+      "id": 19,
+      "question": "Các kiểm tra bởi các cơ quan bên ngoài được gọi là:",
+      "options": [
+        "Đảm bảo chất lượng (Quality assurance-QA) và kiểm tra chấp nhận (Acceptance test)",
+        "Kiểm tra đơn vị (Unit test)",
+        "Kiểm tra tích hợp (Subsystem integration test)",
+        "Kiểm tra hệ thống (System test)"
+      ],
+      "answer": 0,
+      "explanation": "Kiểm tra độc lập do bên thứ ba hoặc khách hàng thực hiện gồm hoạt động Đảm bảo chất lượng (QA) và Kiểm thử chấp nhận (Acceptance test).."
+    },
+    {
+      "id": 20,
+      "question": "Chiến lược kiểm tra nào mà hướng tới việc cho rằng logic đặc trưng là quan trọng và cần phải kiểm tra (hướng về logic - giải thuật):",
+      "options": [
+        "Black-box",
+        "White-box",
+        "Top-down",
+        "Bottom-up"
+      ],
+      "answer": 1,
+      "explanation": "Kiểm thử hộp trắng (White-box testing) tập trung vào cấu trúc logic, đường chạy và giải thuật bên trong mã nguồn.."
+    },
+    {
+      "id": 21,
+      "question": "Chiến lược kiểm tra nào coi chương trình chính là quan trọng nhất nên cần phải phát triển và kiểm tra trước và tiếp tục trong quá trình phát triển:",
+      "options": [
+        "Black-box",
+        "White-box",
+        "Top-down",
+        "Bottom-up"
+      ],
+      "answer": 2,
+      "explanation": "Kiểm thử từ trên xuống (Top-down integration) bắt đầu từ module điều khiển chính và sử dụng các module giả lập (stubs) để thay thế.."
+    },
+    {
+      "id": 22,
+      "question": "Phương pháp nào không phải là phương pháp của chiến lược kiểm tra hộp trắng:",
+      "options": [
+        "Chứng minh bằng toán học",
+        "Cleanroom testing",
+        "Đoán lỗi",
+        "Logic test"
+      ],
+      "answer": 2,
+      "explanation": "Đoán lỗi (error guessing) là kỹ thuật kiểm thử hộp đen dựa trên kinh nghiệm."
+    },
+    {
+      "id": 23,
+      "question": "Chiến lược kiểm tra nào dễ dàng hỗ trợ giao diện người dùng và thiết kế màn hình:",
+      "options": [
+        "Black-box",
+        "White-box",
+        "Top-down",
+        "Bottom-up"
+      ],
+      "answer": 2,
+      "explanation": "Kiểm thử tích hợp từ trên xuống (Top-down) giúp tích hợp giao diện người dùng sớm, thuận lợi cho việc kiểm tra màn hình và demo khách hàng.."
+    },
+    {
+      "id": 24,
+      "question": "Kiểm thử phần mềm là:",
+      "options": [
+        "Tiến trình đánh giá một hệ thống đã thỏa mãn các yêu cầu phần mềm chưa",
+        "Tiến trình cài đặt các yêu cầu dựa trên bản phân tích thiết kế",
+        "Tiến trình đánh giá phần mềm của Nhà chuyên môn",
+        "Tiến trình đánh giá phần mềm của các Chuyên gia"
+      ],
+      "answer": 0,
+      "explanation": "Kiểm thử phần mềm là tiến trình thực thi chương trình với mục đích đánh giá xem hệ thống có thỏa mãn các yêu cầu đã đặt ra hay không.."
+    },
+    {
+      "id": 25,
+      "question": "Quá trình kiểm thử những hệ thống lớn nên phân chia như thế nào:",
+      "options": [
+        "Để nguyên cả khối",
+        "Chia làm 3 giai đoạn: Thử đơn vị, Thử module, Thử hệ con",
+        "Chia làm 6 giai đoạn: Thử đơn vị, Thử module, Thử hệ con, Thử hệ thống, Thử nghiệm thu, Thử nguyên cả khối.",
+        "Chia làm 5 giai đoạn: Thử đơn vị, Thử module, Thử hệ con, Thử hệ thống, Thử nghiệm thu"
+      ],
+      "answer": 3,
+      "explanation": "Với hệ thống lớn, kiểm thử được chia làm 5 bước: Thử đơn vị, Thử module, Thử hệ con, Thử hệ thống, và Thử nghiệm thu.."
+    },
+    {
+      "id": 26,
+      "question": "Công cụ kiểm thử mà những bộ lọc chuyên dụng này được dùng để kiểm tra chất lượng của phần mềm để đảm bảo rằng nó đáp ứng các chuẩn mã hoá tối thiểu là loại công cụ nào?",
+      "options": [
+        "Bộ phân tích tĩnh",
+        "Bộ xử lý khẳng định",
+        "Bộ kiểm toán mã",
+        "Bộ sinh tệp kiểm thử"
+      ],
+      "answer": 2,
+      "explanation": "Bộ kiểm toán mã (Code auditor) là công cụ tự động phân tích mã nguồn để kiểm tra xem nó có tuân thủ các quy chuẩn lập trình tối thiểu hay không.."
+    },
+    {
+      "id": 27,
+      "question": "Phát biểu nào sau đây là hợp lý nhất cho việc sử dụng các đội kiểm thử phần mềm độc lập với đội phát triển phần mềm?",
+      "options": [
+        "Các nhà phát triển phần mềm không cần thực hiện bất kỳ kiểm thử nào.",
+        "Đội kiểm thử sẽ kiểm thử phần mềm triệt để hơn.",
+        "Các nhà kiểm thử không nên can thiệp vào dự án cho đến khi bắt đầu việc kiểm thử.",
+        "Các tranh cãi giữa nhà phát triển phần mềm và các nhà phát triển sẽ giảm."
+      ],
+      "answer": 1,
+      "explanation": "Đội kiểm thử độc lập (IV&V) không bị ảnh hưởng bởi tư duy của lập trình viên nên sẽ thiết kế test case khách quan và triệt để hơn.."
+    },
+    {
+      "id": 28,
+      "question": "Validation (thẩm định) là:",
+      "options": [
+        "Kiểm tra xem sản phẩm có tương thích với mong đợi của khách hàng không.",
+        "Kiểm tra xem sản phẩm có tương thích với đặc tả của phần mềm không.",
+        "Kiểm tra xem sản phẩm có tương thích với các ràng buộc của dự án không.",
+        "Kiểm tra xem sản phẩm có tương thích với bản thiết kế chi tiết không."
+      ],
+      "answer": 0,
+      "explanation": "Thẩm định (Validation) nhằm mục đích trả lời câu hỏi: 'Sản phẩm có làm đúng những gì khách hàng thực sự mong muốn hay không?'.."
+    },
+    {
+      "id": 29,
+      "question": "Trong giai đoạn phát triển hệ thống, loại kiểm thử nào sau đây không được chấp nhận?",
+      "options": [
+        "Kiểm thử đơn vị (unit testing)",
+        "Kiểm thử từ dưới lên (bottom up testing)",
+        "Kiểm thử tích hợp (integration testing)",
+        "Kiểm thử chấp nhận(acceptance testing)"
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: Kiểm thử tích hợp (Integration testing) hay còn gọi là tích hợp và kiểm thử (integration and testing, viết tắt: I&T) là một giai đoạn trong kiểm thử p..."
+    },
+    {
+      "id": 30,
+      "question": "Để thiết kế các trường hợp kiểm thử cho kỹ thuật kiểm thử điều kiện (condition testing) nên:",
+      "options": [
+        "Dựa vào kiểm thử đường dẫn cơ bản.",
+        "Thực hiện các điều kiện luận lý trong một module.",
+        "Chọn các đường dẫn kiểm thử dựa vào vị trí tạo và sử dụng biến.",
+        "Tập trung vào việc kiểm tra tính hợp lệ của vòng lặp."
+      ],
+      "answer": 1,
+      "explanation": "Kiểm thử điều kiện (condition testing) hướng tới kiểm tra toàn bộ các nhánh điều kiện luận lý (boolean expressions) có trong module.."
+    },
+    {
+      "id": 31,
+      "question": "Để thiết kế các trường hợp kiểm thử cho kỹ thuật kiểm thử dòng dữ liệu (Data flow testing) nên:",
+      "options": [
+        "Dựa vào kiểm thử đường dẫn cơ bản.",
+        "Thực hiện các điều kiện luận lý trong một module.",
+        "Chọn các đường dẫn kiểm thử dựa vào vị trí tạo và sử dụng biến.",
+        "Tập trung vào việc kiểm tra tính hợp lệ của vòng lặp."
+      ],
+      "answer": 2,
+      "explanation": "Kiểm thử dòng dữ liệu (data flow testing) lựa chọn các đường dẫn kiểm thử dựa trên các vị trí định nghĩa và sử dụng của các biến.."
+    },
+    {
+      "id": 32,
+      "question": "Để quy trình kiểm thử phần mềm thành công, một trong các chiến lược sau đây nên được dùng:",
+      "options": [
+        "Tổ chức các cuộc họp kỹ thuật chính thức trước khi bắt đầu kiểm thử",
+        "Sử dụng các đội kiểm thử độc lập",
+        "Đợi cho đến khi mã được viết xong trước khi lập kế hoạch kiểm thử",
+        "Tiến hành kiểm thử song song với tất cả các giai đoạn của qui trình sản xuất phần mềm"
+      ],
+      "answer": 3,
+      "explanation": "Chiến lược kiểm thử tốt nhất là tiến hành lập kế hoạch và thực hiện các hoạt động kiểm thử song song với mọi giai đoạn phát triển.."
+    },
+    {
+      "id": 33,
+      "question": "Kiểm thử sự chấp nhận ( Acceptance tests)thường được thực hiện bởi:",
+      "options": [
+        "Nhà phát triển",
+        "Người dùng cuối",
+        "Đội kiểm thử",
+        "Kỹ sư hệ thống"
+      ],
+      "answer": 1,
+      "explanation": "Kiểm thử chấp nhận (Acceptance testing) được thực hiện bởi người dùng cuối để quyết định xem có tiếp nhận bàn giao hệ thống hay không.."
+    },
+    {
+      "id": 34,
+      "question": "Nếu 1 hàm có n biến thì số trường hợp kiểm thử giá trị biên của các biến sẽ là:",
+      "options": [
+        "n",
+        "6n",
+        "3n",
+        "n + 6"
+      ],
+      "answer": 1,
+      "explanation": "Trong kiểm thử giá trị biên robust cho n biến độc lập, số lượng test case cần thiết là 6n + 1 (hoặc xấp xỉ 6n trường hợp).."
+    },
+    {
+      "id": 35,
+      "question": "Cho đoạn chương trình sau: int foo( int a, int b, int c) { if ( a == b) and (c == d) return a + c; else if( a > b) return a + b; else return a + d; } Phải dùng tối thiểu bao nhiêu test case để độ bao phủ quyết định là 100%",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Đoạn mã có 3 nhánh rẽ logic độc lập, do đó cần tối thiểu 3 test case để đạt độ bao phủ quyết định (decision coverage) 100%.."
+    },
+    {
+      "id": 36,
+      "question": "Phương pháp Phân tích giá trị biên trong kiểm thử phần mềm sẽ chọn các giá trị nào để kiểm thử:",
+      "options": [
+        "Giá trị ngay dưới giá trị nhỏ nhất, Giá trị nhỏ nhất, Giá trị ngay trên giá trị nhỏ nhất, Giá trị ngay dưới giá trị lớn nhất, Giá trị lớn nhất, Giá trị ngay trên giá trị lớn nhất.",
+        "Ngay dưới giá trị nhỏ nhất, Giá trị nhỏ nhất, Giá trị ngay trên giá trị nhỏ nhất, Một giá trị bình thường, Ngay dưới giá trị lớn nhất, Giá trị lớn nhất.",
+        "Giá trị nhỏ nhất, Ngay trên giá trị nhỏ nhất, Ngay trên giá trị lớn nhất, Giá trị lớn nhất.",
+        "Giá trị nhỏ nhất, Một giá trị bình thường, Giá trị ngay dưới giá trị lớn nhất ,Giá trị lớn nhất, Ngay trên giá trị lớn nhất."
+      ],
+      "answer": 0,
+      "explanation": "Phân tích giá trị biên (BVA) kiểm tra tại các điểm ranh giới của miền xác định: {min-, min, min+, max-, max, max+}.."
+    },
+    {
+      "id": 37,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào: Ví dụ: a <= y1 <=b",
+      "options": [
+        "Chọn a-1, a, a+1, b-1, b, b+1.",
+        "Chọn a-1, a, (a+b)/2, b, b+1.",
+        "Chọn a-1, a+1, (a+b)/2, b+1.",
+        "Chọn a, a+1, a+2, b, b+1, b+2."
+      ],
+      "answer": 0,
+      "explanation": "Với biên đóng [a, b], các giá trị kiểm thử biên tương ứng được chọn là: a-1, a, a+1, b-1, b, b+1."
+    },
+    {
+      "id": 38,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: 10 <= x <=100",
+      "options": [
+        "Chọn 9, 10, 11, 100, 101, 102.",
+        "Chọn 9, 11, 55, 99, 100, 101.",
+        "Chọn 9, 10, 11, 55, 100, 101.",
+        "Chọn 9, 10, 11, 99, 100, 101."
+      ],
+      "answer": 3,
+      "explanation": "Với miền xác định [10, 100], các giá trị biên tương ứng là: 9, 10, 11 (quanh biên 10) và 99, 100, 101 (quanh biên 100).."
+    },
+    {
+      "id": 39,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: ‘b’ < x < ‘n’",
+      "options": [
+        "Chọn ‘b’, ‘c’, ‘d’, ‘l’, ‘m’, ‘n’.",
+        "Chọn ‘b’, ‘c’, ‘d’, ‘h’, ‘l’, ‘m’.",
+        "Chọn ‘c’, ‘d’, ‘e’, ‘l’, ‘m’, ‘n’.",
+        "Chọn ‘b’, ‘c’, ‘h’, ‘m’, ‘n’, ‘p’."
+      ],
+      "answer": 0,
+      "explanation": "Với miền mở 'b' < x < 'n', tương đương biên đóng 'c' <= x <= 'm'."
+    },
+    {
+      "id": 55,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: 0 < x <= 1000",
+      "options": [
+        "Chọn 0, 1, 2, 999, 1000, 1001.",
+        "Chọn 0, 1, 2, 500, 999, 1000.",
+        "Chọn 0, 1, 500, 998, 999, 1000.",
+        "Chọn 1, 2, 500, 999, 1000,1001."
+      ],
+      "answer": 0,
+      "explanation": "Với miền 0 < x <= 1000, tương đương biên đóng 1 <= x <= 1000."
+    },
+    {
+      "id": 40,
+      "question": "Đâu là loại hình kiểm thử?",
+      "options": [
+        "“Người sử dụng kém”",
+        "Cận dưới",
+        "“Kẻ phá hoại\"",
+        "Đám đông"
+      ],
+      "answer": 1,
+      "explanation": "Theo giáo trình: Chỉ ra được cận dưới của thuật toán,..."
+    },
+    {
+      "id": 41,
+      "question": "Đâu là nguyên tắc kiểm thử?",
+      "options": [
+        "\"Người sử dụng kém”",
+        "Qua sự cố",
+        "Trên dữ liệu thật",
+        "Trên thị trường thật"
+      ],
+      "answer": 3,
+      "explanation": "Kiểu dữ liệu do người dùng tự định nghĩa (user-defined types) chỉ có giá trị sử dụng trong phạm vi chương trình/ứng dụng đó.."
+    },
+    {
+      "id": 42,
+      "question": "Đâu là phương pháp kiểm tra White Box?",
+      "options": [
+        "Kiểm tra logic-logic test",
+        "Phân hoạch cân bằng (Balance analysis)",
+        "Phân tích cực biên (Boundary Analysis)",
+        "Đoán lỗi (error guess)"
+      ],
+      "answer": 3,
+      "explanation": "Theo giáo trình: Đoán lỗi (Error Guessing)..."
+    },
+    {
+      "id": 43,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: 50 <= y < 500",
+      "options": [
+        "Chọn 49, 50, 51, 498, 499, 500",
+        "Chọn 50, 51, 275, 499, 500, 501",
+        "Chọn 49, 50, 275, 498, 499, 501",
+        "Chọn 49, 50, 55, 275, 499, 500"
+      ],
+      "answer": 0,
+      "explanation": "Với biên 50 <= y < 500 (biên đóng ở 50, biên mở ở 500, tương đương 499)."
+    },
+    {
+      "id": 44,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: 0 <= i <= 500",
+      "options": [
+        "Chọn -1, 0, 1, 499, 500, 501",
+        "Chọn 1, 2, 250, 499, 500, 501",
+        "Chọn -1, 0, 1, 498, 499, 500",
+        "Chọn 0, 1, 250, 498, 499, 500"
+      ],
+      "answer": 0,
+      "explanation": "Với biên đóng 0 <= i <= 500. Các giá trị biên tương ứng là: -1, 0, 1, 499, 500, 501."
+    },
+    {
+      "id": 45,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: -6 <= y < 600",
+      "options": [
+        "Chọn -7, -6, -5, 598, 599, 600",
+        "Chọn -6, -5, 297, 599, 600, 601",
+        "Chọn -6, -7, 297, 598, 599, 601",
+        "Chọn -6, -7, -8, 599, 600, 601"
+      ],
+      "answer": 0,
+      "explanation": "Với biên -6 <= y < 600 (tương đương biên đóng từ -6 đến 599)."
+    },
+    {
+      "id": 46,
+      "question": "Trong kỹ thuật phân tích giá trị biên để kiểm thử phần mềm, ví dụ sau sẽ chọn các giá trị nào để kiểm thử: Ví dụ: -10 <= a <= 800",
+      "options": [
+        "Chọn -11, -10, -9, 799, 800, 801",
+        "Chọn -9, -8, 395, 799, 800, 801",
+        "Chọn -11, -10, 395, 799, 800, 801",
+        "Chọn -9, -10, 395, 798, 799, 800"
+      ],
+      "answer": 0,
+      "explanation": "Với biên đóng -10 <= a <= 800. Các giá trị biên tương ứng được chọn là: -11, -10, -9, 799, 800, 801."
+    },
+    {
+      "id": 47,
+      "question": "Chương trình P là một bộ biến đổi tuần tự P để chuyển cái vào x thành ra cái y trong đó:",
+      "options": [
+        "x và y hoàn toàn được xác định trước",
+        "x được xác định trước, y chưa được xác định trước",
+        "x chưa được xác định trước, y được xác định trước",
+        "x và y hoàn toàn chưa được xác định"
+      ],
+      "answer": 0,
+      "explanation": "Chương trình tuần tự P nhận đầu vào x và chuyển thành đầu ra y, trong đó cả x và y đều phải được xác định rõ ràng từ trước.."
+    },
+    {
+      "id": 48,
+      "question": "Điều kiện để có mệnh đề B sau khi thực hiện lệnh gán x: = E (với E là một biểu thức) từ mệnh đề {A} thì trước đó ta phải có {A} suy dẫn được ra {B[x|E]} là nội dung của tiên đề nào:",
+      "options": [
+        "Tiên đề tuần tự",
+        "Tiên đề gán",
+        "Tiên đề rẽ nhánh",
+        "Tiên đề lặp"
+      ],
+      "answer": 1,
+      "explanation": "Tiên đề gán định nghĩa luật biến đổi trạng thái sau khi thực hiện câu lệnh gán giá trị của biểu thức cho biến.."
+    },
+    {
+      "id": 49,
+      "question": "Với mệnh đề dữ liệu vào {A}, mệnh đề dữ liệu ra {B}, biểu thức logic E, và đoạn chương trình P. Nếu ta có {A, E}P{B} và A,!EL=> B thì ta nói rằng mệnh đề {A} và {B} tuân theo cấu trúc rẽ nhánh dạng khuyết với cấu trúc P và điều kiện lựa chọn E; tức là: {A} if E then P; {B} là nội dung của tiên đề nào:",
+      "options": [
+        "Tiên đề tuần tự",
+        "Tiên đề gán",
+        "Tiên đề rẽ nhánh",
+        "Tiên đề lặp"
+      ],
+      "answer": 2,
+      "explanation": "Tiên đề rẽ nhánh (if-then-else) định nghĩa luật kiểm tra tính đúng đắn cho cả hai nhánh rẽ (True và False) của điều kiện.."
+    },
+    {
+      "id": 50,
+      "question": "Với mệnh đề dữ liệu vào {A}, mệnh đề dữ liệu ra {B}, biểu thức logic E, và các đoạn chương trình P, Q. Nếu ta có {A, E}P{B} và {A,!E}Q{B} thì ta nói rằng mệnh đề {A} và {B} tuân theo cấu trúc rẽ nhánh dạng đủ với cấu trúc P, Q và điều kiện lựa chọn E; tức là: {A} if E then P else Q; {B} là nội dung của tiên đề nào:",
+      "options": [
+        "Tiên đề tuần tự",
+        "Tiên đề gán",
+        "Tiên đề rẽ nhánh",
+        "Tiên đề lặp"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề rẽ nhánh dạng đủ (if-then-else) chứng minh rằng cả hai hướng chạy đều dẫn đến trạng thái dữ liệu đầu ra {B} mong muốn.."
+    },
+    {
+      "id": 51,
+      "question": "Cho mệnh đề dữ liệu vào {A}, biểu thức logic E và đoạn trình P. Nếu mệnh đề {A} tuân theo cấu trúc lặp P với điều kiện lặp E thì mệnh đề {A} sẽ bất biến đối với P trong điều kiện E, tức là {A,E}P{A}, kết thúc vòng lặp ta có mệnh đề {A,!E}. Lúc này ta viết: {A} while E do P; {A,!E} là nội dung của tiên đề nào:",
+      "options": [
+        "Tiên đề tuần tự",
+        "Tiên đề gán",
+        "Tiên đề rẽ nhánh",
+        "Tiên đề lặp"
+      ],
+      "answer": 3,
+      "explanation": "Tiên đề lặp (while-do) sử dụng bất biến vòng lặp {A} để chứng minh tính đúng đắn và trạng thái sau khi kết thúc vòng lặp {A, !E}.."
+    },
+    {
+      "id": 52,
+      "question": "Cho mệnh đề dữ liệu vào {A} và đoạn chương trình P. Nếu ta có {A}P{A} thì ta nói rằng tính chất dữ liệu của mệnh đề {A} không thay đổi khi chịu sự tác động của đoạn chương trình P và lúc này người ta nói rằng mệnh đề {A} là bất biến đối với P, tức ta có: {A}P {A} là nội dung của tiên đề nào:",
+      "options": [
+        "Tiên đề tuần tự",
+        "Tiên đề gán",
+        "Tiên đề rẽ nhánh",
+        "Tiên đề về tính bất biến của chương trình"
+      ],
+      "answer": 3,
+      "explanation": "Tiên đề về tính bất biến chứng minh rằng đoạn chương trình P không làm thay đổi hay phá vỡ thuộc tính dữ liệu {A}.."
+    },
+    {
+      "id": 53,
+      "question": "\"Hệ thống các hoạt động nhằm đánh giá và điều khiển chất lượng của sản phẩm\" được gọi là tắt là:",
+      "options": [
+        "QA",
+        "QC",
+        "QE",
+        "QI"
+      ],
+      "answer": 1,
+      "explanation": "QC (Quality Control) tập trung vào các hoạt động kỹ thuật cụ thể nhằm đánh giá, kiểm tra chất lượng của sản phẩm đầu ra.."
+    },
+    {
+      "id": 54,
+      "question": "\"Hệ thống lên kế hoạch, xem xét, đánh giá trên toàn bộ quy trình phát triển sản phẩm\" được gọi tắt là:",
+      "options": [
+        "QC",
+        "QA",
+        "QE",
+        "QI"
+      ],
+      "answer": 1,
+      "explanation": "QA (Quality Assurance) là hệ thống các hoạt động lên kế hoạch, giám sát quy trình phát triển để ngăn ngừa lỗi xảy ra từ đầu.."
+    }
+  ],
+  "6": [
+    {
+      "id": 1,
+      "question": "Trong quá trình phát triển phần mềm, giai đoạn bảo trì phần mềm có nghĩa là :",
+      "options": [
+        "Thay đổi và phát triển hệ thống đã được xây dựng",
+        "Xây dựng không gian giải pháp cho vấn đề",
+        "Xây dựng một hệ thống thực hiện được dựa vào thiết kế",
+        "Thẩm định lại tính đúng đắn của giải pháp theo yêu cầu ban đầu đã đặt ra"
+      ],
+      "answer": 1,
+      "explanation": "Theo giáo trình: Xây dựng không gian giải pháp cho vấn đề..."
+    },
+    {
+      "id": 2,
+      "question": "Trong quá trình bảo trì phần mềm: \"sửa đổi phần mềm để thích ứng với những thay đổi của môi trường\" được gọi là:",
+      "options": [
+        "Bảo trì thích hợp.",
+        "Bảo trì phòng ngừa.",
+        "Bảo trì hoàn thiện.",
+        "Bảo trì hiệu chỉnh"
+      ],
+      "answer": 0,
+      "explanation": "Bảo trì thích ứng (Adaptive maintenance) là hoạt động sửa đổi phần mềm để tương thích với những thay đổi của môi trường phần cứng/phần mềm.."
+    },
+    {
+      "id": 3,
+      "question": "Trong quá trình bảo trì phần mềm: \"là những thay đổi để cải thiện các tính năng bảo trì như độ tin cậy, cung cấp nền tảng tốt hơn cho những mở rộng sau này…\" gọi là:",
+      "options": [
+        "Bảo trì tiếp hợp.",
+        "Bảo trì phòng ngừa",
+        "Bảo trì hoàn thiện.",
+        "Bảo trì hiệu chỉnh"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Trong thực tế của hoạt động bảo trì, các nhiệm vụ được làm như một phần của bảo trì tiếp hợp và bảo trì hoàn thiện cũng giống như các nhiệm vụ cần làm..."
+    },
+    {
+      "id": 4,
+      "question": "Bảo trì có cấu trúc là:",
+      "options": [
+        "Bảo trì cấu trúc dữ liệu của phần mềm",
+        "Bảo trì phần mềm theo cấu trúc từ trên xuống dưới",
+        "Bảo trì phần mềm theo cấu trúc từ dưới lên trên",
+        "Bảo trì có hệ thống được phát triển theo đúng trình tự của kỹ nghệ phần mềm (phân tích, thiết kế, lập trình , kiểm định)"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Bảo trì cấu trúc dữ liệu của phần mềm..."
+    },
+    {
+      "id": 5,
+      "question": "Cho công thức của bảo trì: M = p + (K*exp(c-d)). Trong đó: tham số K là:",
+      "options": [
+        "Hằng số kinh nghiệm.",
+        "Đánh giá mức độ hiểu biết về phần mềm.",
+        "Công việc làm",
+        "Độ phức tạp cho việc thiếu thiết kế về cấu trúc và dữ liệu."
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: với  M = toàn bộ các công việc cho việc bảo trì; p = công việc làm (như miêu tả ở trên);..."
+    },
+    {
+      "id": 6,
+      "question": "Cho công thức của bảo trì: M = p + (K*exp(c-d)). Trong đó: tham số d là:",
+      "options": [
+        "Hằng số kinh nghiệm",
+        "Đánh giá mức độ hiểu biết về phần mềm",
+        "Công việc làm",
+        "Độ phức tạp cho việc thiếu thiết kế về cấu trúc và dữ liệu"
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: với  M = toàn bộ các công việc cho việc bảo trì; p = công việc làm (như miêu tả ở trên);..."
+    },
+    {
+      "id": 7,
+      "question": "Đâu không phải là 1 trong 4 loại bảo trì thường sử dụng:",
+      "options": [
+        "Bảo trì hiệu chỉnh",
+        "Bảo trì thích hợp",
+        "Bảo trì hoàn thiện",
+        "Bảo trì sửa lỗi"
+      ],
+      "answer": 2,
+      "explanation": "Theo giáo trình: Trong thực tế của hoạt động bảo trì, các nhiệm vụ được làm như một phần của bảo trì tiếp hợp và bảo trì hoàn thiện cũng giống như các nhiệm vụ cần làm..."
+    },
+    {
+      "id": 8,
+      "question": "Một chương trình con bị xóa hay thay đổi có thể dẫn tới dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc thay đổi mã nguồn",
+        "Hiệu ứng lề của việc thay đổi tài liệu",
+        "Hiệu ứng lề của việc thay đổi dữ liệu",
+        "Hiệu ứng lề của việc thay đổi chương trình con"
+      ],
+      "answer": 3,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi chương trình con..."
+    },
+    {
+      "id": 9,
+      "question": "Việc mở và đóng file bị thay đổi có thể dẫn đến dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc thay đổi dữ liệu",
+        "Hiệu ứng lề của việc thay đổi mã nguồn",
+        "Hiệu ứng lề của việc thay đổi tài liệu",
+        "Hiệu ứng lề của việc đóng file"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi dữ liệu..."
+    },
+    {
+      "id": 10,
+      "question": "Các phép toán logic bị thay đổi có thể dẫn đến dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc thay đổi tài liệu",
+        "Hiệu ứng lề của việc thay đổi dữ liệu",
+        "Hiệu ứng lề của việc thay đổi mã nguồn",
+        "Hiệu ứng lề của việc xóa phép toán Logic"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi tài liệu..."
+    },
+    {
+      "id": 11,
+      "question": "Bảo trì phần mềm là:",
+      "options": [
+        "Điều chỉnh các lỗi mà chưa được phát hiện trong các giai đoạn trước của chu kỳ sống của một phần mềm.",
+        "Nâng cấp tính năng sử dụng của một phần mềm.",
+        "Điều chỉnh các lỗi mà chưa được phát hiện trong các giai đoạn trước của chu kỳ sống của một phần mềm và đảm bảo an toàn vận hành của phần mềm.",
+        "Điều chỉnh các lỗi, nâng cấp tính năng sử dụng và đảm bảo an toàn vận hành của phần mềm."
+      ],
+      "answer": 3,
+      "explanation": "Bảo trì phần mềm bao gồm sửa lỗi tồn đọng, nâng cấp các tính năng sử dụng và bảo đảm an toàn vận hành cho hệ thống.."
+    },
+    {
+      "id": 12,
+      "question": "Nếu thành phần có được duy nhất của một cấu hình phần mềm là mã nguồn, hoạt động bảo trì sẽ diễn ra:",
+      "options": [
+        "Khá đơn giản.",
+        "Bình thường như những phần mềm có đầy đủ thành phần khác.",
+        "Khá phức tạp.",
+        "Không thể tiến hành hoạt động bảo trì."
+      ],
+      "answer": 2,
+      "explanation": "Nếu chỉ có duy nhất mã nguồn mà không có tài liệu thiết kế/yêu cầu, việc hiểu hệ thống để bảo trì sẽ cực kỳ phức tạp.."
+    },
+    {
+      "id": 13,
+      "question": "Nếu có một cấu hình phần mềm hoàn thiện, nhiệm vụ bảo trì bắt đầu bằng việc:",
+      "options": [
+        "Đánh giá các tài liệu thiết kế.",
+        "Xác định các đặc điểm thuộc cấu trúc quan trọng, các đặc điểm hoạt động và giao diện.",
+        "Thiết lập kế hoạch sửa đổi.",
+        "Thiết kế được thay đổi."
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Nếu có một cấu hình phần mềm hoàn thiện, nhiệm vụ bảo trì bắt đầu bằng việc đánh giá các tài liệu thiết kế. Sau đó là xác định các đặc điểm thuộc cấu ..."
+    },
+    {
+      "id": 14,
+      "question": "Trong chi phí cho việc bảo trì, phát biểu nào sau chưa đúng:",
+      "options": [
+        "Các cơ hội phát triển bị bỏ qua vì các tài nguyên có sẵn đều dành cho nhiệm vụ bảo trì.",
+        "Sự không hài lòng của người dùng khi các yêu cầu có vẻ hợp lý cho việc sửa chữa hay sửa đổi không được chú ý một cách hợp lý.",
+        "Việc suy giảm chất lượng nói chung do lỗi tạo ra bởi sự thay đổi trong các phần mềm được bảo trì.",
+        "Chi phí cuối cùng cho việc bảo trì nhìn chung không ảnh hưởng nhiều tới năng suất lao động."
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Một chi phí khó xác định của việc bảo trì phần mềm là các cơ hội phát triển bị bỏ qua vì các tài nguyên có sẵn đều dành cho nhiệm vụ bảo trì...."
+    },
+    {
+      "id": 15,
+      "question": "Trong bảo trì phần mềm, người ta đã ghi nhận sự giảm sút năng suất lao động theo tỷ lệ 40:1, có nghĩa là:",
+      "options": [
+        "Chi phí cho việc phát triển trị giá $25.00 trên một dòng lệnh sẽ có thể trị giá tới $1000.00 cho việc bảo trì mỗi dòng lệnh.",
+        "Chi phí cho việc phát triển trị giá $1000.00 trên một dòng lệnh sẽ có thể trị giá tới $25.00 cho việc bảo trì mỗi dòng lệnh.",
+        "Chi phí cho việc phát triển trị giá $25.00 trên một dòng lệnh sẽ có thể trị giá tới $1000.00 cho việc bảo trì mỗi chương trình.",
+        "Chi phí cho việc phát triển trị giá $1000.00 trên một chương trình sẽ có thể trị giá tới $25.00 cho việc bảo trì mỗi dòng lệnh."
+      ],
+      "answer": 0,
+      "explanation": "Sự giảm sút năng suất lao động theo tỷ lệ 40:1 nghĩa là chi phí bảo trì mỗi dòng lệnh cao gấp 40 lần chi phí phát triển ban đầu.."
+    },
+    {
+      "id": 16,
+      "question": "Các thông tin cần phải lưu giữ trong hồ sơ bảo trì thường không quan tâm đến:",
+      "options": [
+        "Số lượng các câu lệnh trong chương trình nguồn.",
+        "Chi phí cho từng công việc bảo trì.",
+        "Ngôn ngữ lập trình được sử dụng.",
+        "Số các câu lệnh được xóa khỏi chương trình nguồn khi chương trình thay đổi."
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Số lượng các câu lệnh trong chương trình nguồn...."
+    },
+    {
+      "id": 17,
+      "question": "Việc xác định giá trị bảo trì cho các phần mềm là:",
+      "options": [
+        "Đơn giản",
+        "Đơn giản tính theo tỉ lệ quy định",
+        "Phức tạp do thiếu thông tin",
+        "Không thể xác định được"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Danh sách các miền giá trị toàn vẹn: Các qui định về tính hợp lệ của các thông tin được lưu trữ. Có nhiều phương pháp, nhiều đề nghị khác nhau về việc..."
+    },
+    {
+      "id": 18,
+      "question": "Bảo trì phần mềm không phải được thực hiện để:",
+      "options": [
+        "Thay thế nâng cấp phiên bản mới.",
+        "Giao diện với các phần mềm khác.",
+        "Thích ứng với các loại phần cứng, phần mềm, tính năng hệ thống,…khác nhau có thể được sử dụng.",
+        "Tiến hóa phần mềm."
+      ],
+      "answer": 3,
+      "explanation": "Theo giáo trình: Công nghệ phần mềm là ngành kỹ thuật liên quan đến tất cả các khía cạnh sản xuất phần mềm. Các hoạt động nền tảng của công nghệ phần mềm là đặc tả phầ..."
+    },
+    {
+      "id": 19,
+      "question": "Đâu không phải là đặc điểm chính trong các hoạt động của người bảo trì:",
+      "options": [
+        "Hoàn thiện các chức năng hiện có.",
+        "Phân tích thiết kế thêm các chức năng mới.",
+        "Xác định các mối đe dọa an ninh và sửa chữa các lỗ hổng an ninh.",
+        "Ngăn ngừa việc xuống cấp hiệu xuất tới mức không thể chấp nhận được."
+      ],
+      "answer": 1,
+      "explanation": "Hoạt động bảo trì tập trung vào sửa lỗi, thích ứng môi trường và tối ưu, việc phân tích thêm chức năng lớn mới thuộc phát triển mới.."
+    },
+    {
+      "id": 20,
+      "question": "Yếu tố môi trường và mối quan hệ nào ít ảnh hưởng nhất tới chi phí bảo trì phần mềm:",
+      "options": [
+        "Môi trường hoạt động liên quan đến phần cứng và phần mềm.",
+        "Môi trường tổ chức liên quan đến chính sách, tính cạnh tranh, quy trình của sản phẩm.",
+        "Mối quan hệ giữa các doanh nghiệp.",
+        "Môi trường tổ chức liên quan đến chính sách, tính cạnh tranh của nhân viên."
+      ],
+      "answer": 2,
+      "explanation": "Yếu tố ít ảnh hưởng đến chi phí bảo trì nhất là mối quan hệ giữa các doanh nghiệp (yếu tố đối tác bên ngoài).."
+    },
+    {
+      "id": 21,
+      "question": "Chọn quan điểm đúng nhất về quản lý thay đổi phần mềm:",
+      "options": [
+        "Việc quản lý thay đổi ứng dụng giúp cho nhóm triển khai đáp ứng tốt nhất những ý thích chợt nảy ra của người sử dụng.",
+        "Việc quản lý thay đổi ứng dụng giúp cho nhóm triển khai bỏ qua những ý thích chợt nảy ra của người sử dụng cũng như các yêu cầu phát sinh.",
+        "Việc quản lý thay đổi ứng dụng giúp cho nhóm triển khai đáp ứng những ý thích chợt nảy ra của người sử dụng trong khi hạn chế các phép thực hiện các yêu cầu dù là hợp lý.",
+        "Việc quản lý thay đổi ứng dụng giúp cho nhóm triển khai bỏ qua những ý thích chợt nảy ra của người sử dụng trong khi vẫn cho phép thực hiện các yêu cầu hợp lý."
+      ],
+      "answer": 3,
+      "explanation": "Quản lý thay đổi phần mềm giúp kiểm soát các yêu cầu phát sinh hợp lý, loại bỏ những thay đổi bất chợt vô căn cứ của người dùng.."
+    },
+    {
+      "id": 22,
+      "question": "Quản lý điều khiển thay đổi có hiệu lực từ khi nào:",
+      "options": [
+        "Từ khi bắt đầu triển khai dự án cho đến khi dự án kết thúc.",
+        "Từ khi sản phẩm đầu tiên được chấp nhận là hoàn thiện cho đến khi dự án kết thúc.",
+        "Từ khi sản phẩm đầu tiên được chấp nhận là hoàn thiện cho đến khi thiết kế hoàn thành.",
+        "Từ khi bắt đầu triển khai dự án cho đến khi kết thúc giai đoạn xác định yêu cầu."
+      ],
+      "answer": 1,
+      "explanation": "Quản lý thay đổi (Change control) bắt đầu có hiệu lực ngay khi sản phẩm/tài liệu đầu tiên được nghiệm thu và đưa vào baseline.."
+    },
+    {
+      "id": 23,
+      "question": "Các thay đổi ảnh hưởng đến việc chạy thử các trường hợp biên có thể dẫn đến dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc thay đổi tài liệu",
+        "Hiệu ứng lề của việc thay đổi biên",
+        "Hiệu ứng lề của việc thay đổi mã nguồn",
+        "Hiệu ứng lề của việc thay đổi dữ liệu"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi tài liệu..."
+    },
+    {
+      "id": 24,
+      "question": "Định nghĩa lại các hằng số cục bộ và hằng số địa phương có thể dẫn đến dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc thay đổi tài liệu",
+        "Hiệu ứng lề của việc định nghĩa lại",
+        "Hiệu ứng lề của việc thay đổi dữ liệu",
+        "Hiệu ứng lề của việc thay đổi mã nguồn"
+      ],
+      "answer": 0,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi tài liệu..."
+    },
+    {
+      "id": 25,
+      "question": "Định nghĩa lại cấu trúc bản ghi hay cấu trúc file có thể dẫn đến dạng hiệu ứng lề nào của công việc bảo trì?",
+      "options": [
+        "Hiệu ứng lề của việc định nghĩa",
+        "Hiệu ứng lề của việc thay đổi mã nguồn",
+        "Hiệu ứng lề của việc thay đổi dữ liệu",
+        "Hiệu ứng lề của việc thay đổi tài liệu"
+      ],
+      "answer": 1,
+      "explanation": "Theo giáo trình: Hiệu ứng lề của việc thay đổi mã nguồn..."
+    }
+  ]
+}
